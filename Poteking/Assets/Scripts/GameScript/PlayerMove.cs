@@ -6,6 +6,8 @@ using UnityEngine.EventSystems;
 
 public class PlayerMove : MonoBehaviour
 {
+
+
     Rigidbody2D rigid;
     public float maxSpeed;
 
