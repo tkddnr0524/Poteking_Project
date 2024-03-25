@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class PlayerMove : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
 
 
@@ -27,4 +27,13 @@ public class PlayerMove : MonoBehaviour
             rigid.velocity = new Vector2(maxSpeed * (-1), rigid.velocity.y);
     }
 
+
+    public void OnTriggerStay2D(Collider2D scanObject)
+    {
+        if (scanObject.CompareTag("Object") && Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("오브젝트와 상호 작용 합니다");
+        }
+    }
 }
+
