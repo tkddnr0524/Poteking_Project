@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
     {
         if (scanObject.CompareTag("Object") && Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("오브젝트와 상호 작용 합니다");
+            Debug.Log(scanObject.gameObject.name + "오브젝트와 상호 작용 합니다");
         }
     }
 }
