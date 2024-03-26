@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class PlayerController : MonoBehaviour
 {
 
-
+    public TalkManager talkManager;
     Rigidbody2D rigid;
     public float maxSpeed;
 
@@ -16,24 +16,42 @@ public class PlayerController : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
     }
 
-    private void FixedUpdate()
+    void Start()
     {
-        float h = Input.GetAxisRaw("Horizontal");
-        rigid.AddForce(Vector2.right * h, ForceMode2D.Impulse);
-
-        if (rigid.velocity.x > maxSpeed)
-            rigid.velocity = new Vector2(maxSpeed, rigid.velocity.y);
-        else if (rigid.velocity.x < maxSpeed * (-1))
-            rigid.velocity = new Vector2(maxSpeed * (-1), rigid.velocity.y);
+        talkManager = FindObjectOfType<TalkManager>();
     }
-
 
     public void OnTriggerStay2D(Collider2D scanObject)
     {
+
+        Debug.Log("충돌");
         if (scanObject.CompareTag("Object") && Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log(scanObject.gameObject.name + "오브젝트와 상호 작용 합니다");
+            talkManager.Action(scanObject.gameObject);
+            Debug.Log("작동");
         }
     }
+    private void FixedUpdate()
+    {
+        
+        if (!talkManager.isAction)
+        {
+            float h = Input.GetAxisRaw("Horizontal");
+           
+
+
+            rigid.AddForce(Vector2.right * h, ForceMode2D.Impulse);
+
+
+
+            if (rigid.velocity.x > maxSpeed)
+                rigid.velocity = new Vector2(maxSpeed, rigid.velocity.y);
+            else if (rigid.velocity.x < maxSpeed * (-1))
+                rigid.velocity = new Vector2(maxSpeed * (-1), rigid.velocity.y);
+        }
+    }
+
+
+    
 }
 
