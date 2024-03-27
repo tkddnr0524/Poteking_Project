@@ -6,34 +6,70 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
-
-
+    ObjectData currentObject;
+    public TalkAction talkAction;
     Rigidbody2D rigid;
     public float maxSpeed;
 
     private void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
+        
     }
 
-    private void FixedUpdate()
+    
+
+    void OnTriggerEnter2D(Collider2D scanObject)
     {
-        float h = Input.GetAxisRaw("Horizontal");
-        rigid.AddForce(Vector2.right * h, ForceMode2D.Impulse);
-
-        if (rigid.velocity.x > maxSpeed)
-            rigid.velocity = new Vector2(maxSpeed, rigid.velocity.y);
-        else if (rigid.velocity.x < maxSpeed * (-1))
-            rigid.velocity = new Vector2(maxSpeed * (-1), rigid.velocity.y);
-    }
-
-
-    public void OnTriggerStay2D(Collider2D scanObject)
-    {
-        if (scanObject.CompareTag("Object") && Input.GetKeyDown(KeyCode.Space))
+        ObjectData isObject = scanObject.GetComponent<ObjectData>();
+        if(isObject != null)
         {
-            Debug.Log("오브젝트와 상호 작용 합니다");
+            currentObject = isObject;
+            Debug.Log(scanObject.name + "와 충돌하였습니다");
+        }
+
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D scanObject)
+    {
+        ObjectData isObject = scanObject.GetComponent<ObjectData>();
+        if(isObject != null && isObject == currentObject)
+        {
+            currentObject = null;
+            Debug.Log(scanObject.name + "와 충돌이 끝났습니다");
         }
     }
+    private void FixedUpdate()
+    {
+
+        if (!talkAction.isAction) 
+        {
+            float h = Input.GetAxisRaw("Horizontal");
+
+
+
+            rigid.AddForce(Vector2.right * h, ForceMode2D.Impulse);
+
+
+
+            if (rigid.velocity.x > maxSpeed)
+                rigid.velocity = new Vector2(maxSpeed, rigid.velocity.y);
+            else if (rigid.velocity.x < maxSpeed * (-1))
+                rigid.velocity = new Vector2(maxSpeed * (-1), rigid.velocity.y);
+        }
+    }
+
+    void Update()
+    {
+        if(currentObject != null && Input.GetKeyDown(KeyCode.E))
+        {
+            talkAction.Action(currentObject.gameObject); 
+
+        }
+    }
+
+
+    
 }
 

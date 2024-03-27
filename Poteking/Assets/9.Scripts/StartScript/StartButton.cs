@@ -6,6 +6,6 @@ public class StartButton : MonoBehaviour
 {
     public void OnClickStartScene()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("01.PrologScene");
     }
 }
