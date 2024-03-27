@@ -256,7 +256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bac04a777fd03c443b6c07dedc0eb486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectId: 100
+  id: 100
   isNPC: 0
 --- !u!1 &87772655
 GameObject:
@@ -799,10 +799,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df6174e122a323f4aa173b6cb232e201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  talkManager: {fileID: 371224613}
   talkPanel: {fileID: 1876208831}
   talkText: {fileID: 596803707}
   scanObject: {fileID: 0}
   isAction: 0
+  talkIndex: 0
+--- !u!1 &371224612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 371224614}
+  - component: {fileID: 371224613}
+  m_Layer: 0
+  m_Name: TalkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &371224613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371224612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf0d9d00d3936841b23e063e914c1ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &371224614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371224612}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1301,7 +1347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bac04a777fd03c443b6c07dedc0eb486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectId: 1000
+  id: 1000
   isNPC: 1
 --- !u!1 &1876208831
 GameObject:
@@ -1488,6 +1534,7 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 980980954}
   - {fileID: 343523064}
+  - {fileID: 371224614}
   - {fileID: 272004302}
   - {fileID: 87772657}
   - {fileID: 1209770934}

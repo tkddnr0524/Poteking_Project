@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObjectData : MonoBehaviour
 {
 
-    public int objectId;
+    public int id;
     public bool isNPC;
 
     TalkAction talkActionCall;
@@ -20,8 +20,10 @@ public class ObjectData : MonoBehaviour
     void StartDialogue()
     {
 
-       talkActionCall.Action(gameObject);
+        talkActionCall.Action(gameObject);
+
+
     }
 
-   
+
 }

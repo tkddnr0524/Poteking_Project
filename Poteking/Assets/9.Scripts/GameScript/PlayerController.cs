@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
 
-        if (!talkAction.isAction)
+        if (!talkAction.isAction) 
         {
             float h = Input.GetAxisRaw("Horizontal");
 

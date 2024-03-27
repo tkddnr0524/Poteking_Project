@@ -113,12 +113,12 @@ TextureImporter:
       name: SmartPhone2_0
       rect:
         serializedVersion: 2
-        x: 613
-        y: 120
+        x: 610
+        y: 117
         width: 402
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
         width: 402
         height: 722
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
