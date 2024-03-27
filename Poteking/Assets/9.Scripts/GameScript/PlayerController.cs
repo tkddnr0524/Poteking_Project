@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class PlayerController : MonoBehaviour
+public class PlayerMove : MonoBehaviour
 {
     ObjectData currentObject;
     public TalkManager talkManager;
