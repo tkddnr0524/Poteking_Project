@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 32204296}
   - component: {fileID: 32204295}
   - component: {fileID: 32204294}
+  - component: {fileID: 32204297}
   m_Layer: 0
   m_Name: Object
   m_TagString: Object
@@ -243,6 +244,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &32204297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32204293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac04a777fd03c443b6c07dedc0eb486, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectId: 0
+  isNPC: 0
 --- !u!1 &87772655
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,7 +666,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.050980393}
   m_Origin: {x: -6, y: -9, z: 0}
   m_Size: {x: 6, y: 24, z: 1}
   m_TileAnchor: {x: 0, y: 0, z: 0}
@@ -873,12 +888,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.31, y: 1.6500001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1209770934}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &596803705
 GameObject:
@@ -1150,7 +1165,8 @@ Transform:
   m_LocalPosition: {x: -3.31, y: -3.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 519420032}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1657053161
@@ -1164,6 +1180,7 @@ GameObject:
   - component: {fileID: 1657053164}
   - component: {fileID: 1657053163}
   - component: {fileID: 1657053162}
+  - component: {fileID: 1657053165}
   m_Layer: 0
   m_Name: NpcA
   m_TagString: Object
@@ -1273,6 +1290,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1657053165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657053161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac04a777fd03c443b6c07dedc0eb486, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectId: 0
+  isNPC: 0
 --- !u!1 &1876208831
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,7 +1486,6 @@ RectTransform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 519420032}
   - {fileID: 980980954}
   - {fileID: 343523064}
   - {fileID: 272004302}
