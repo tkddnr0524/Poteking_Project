@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
-
+    ObjectData currentObject;
     public TalkManager talkManager;
     Rigidbody2D rigid;
     public float maxSpeed;
@@ -14,30 +14,39 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
+        
     }
 
-    void Start()
-    {
-        talkManager = FindObjectOfType<TalkManager>();
-    }
+    
 
-    public void OnTriggerStay2D(Collider2D scanObject)
+    void OnTriggerEnter2D(Collider2D scanObject)
     {
-
-        Debug.Log("충돌");
-        if (scanObject.CompareTag("Object") && Input.GetKeyDown(KeyCode.Space))
+        ObjectData isObject = scanObject.GetComponent<ObjectData>();
+        if(isObject != null)
         {
-            talkManager.Action(scanObject.gameObject);
-            Debug.Log("작동");
+            currentObject = isObject;
+            Debug.Log(scanObject.name + "와 충돌하였습니다");
+        }
+
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D scanObject)
+    {
+        ObjectData isObject = scanObject.GetComponent<ObjectData>();
+        if(isObject != null && isObject == currentObject)
+        {
+            currentObject = null;
+            Debug.Log(scanObject.name + "와 충돌이 끝났습니다");
         }
     }
     private void FixedUpdate()
     {
-        
+
         if (!talkManager.isAction)
         {
             float h = Input.GetAxisRaw("Horizontal");
-           
+
 
 
             rigid.AddForce(Vector2.right * h, ForceMode2D.Impulse);
@@ -48,6 +57,15 @@ public class PlayerController : MonoBehaviour
                 rigid.velocity = new Vector2(maxSpeed, rigid.velocity.y);
             else if (rigid.velocity.x < maxSpeed * (-1))
                 rigid.velocity = new Vector2(maxSpeed * (-1), rigid.velocity.y);
+        }
+    }
+
+    void Update()
+    {
+        if(currentObject != null && Input.GetKeyDown(KeyCode.E))
+        {
+            talkManager.Action(currentObject.gameObject); 
+
         }
     }
 
