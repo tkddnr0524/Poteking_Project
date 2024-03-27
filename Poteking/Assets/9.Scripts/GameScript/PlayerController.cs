@@ -4,10 +4,10 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class PlayerMove : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     ObjectData currentObject;
-    public TalkManager talkManager;
+    public TalkAction talkAction;
     Rigidbody2D rigid;
     public float maxSpeed;
 
@@ -43,7 +43,7 @@ public class PlayerMove : MonoBehaviour
     private void FixedUpdate()
     {
 
-        if (!talkManager.isAction)
+        if (!talkAction.isAction)
         {
             float h = Input.GetAxisRaw("Horizontal");
 
@@ -64,7 +64,7 @@ public class PlayerMove : MonoBehaviour
     {
         if(currentObject != null && Input.GetKeyDown(KeyCode.E))
         {
-            talkManager.Action(currentObject.gameObject); 
+            talkAction.Action(currentObject.gameObject); 
 
         }
     }
