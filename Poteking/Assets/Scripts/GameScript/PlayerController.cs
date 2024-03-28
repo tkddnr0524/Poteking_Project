@@ -6,57 +6,49 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
-    ObjectData currentObject;
-    public TalkAction talkAction;
-    Rigidbody2D rigid;
-    public float maxSpeed;
+    public float moveSpeed = 5f;//플레이어 이동 속
 
-    private void Awake()
+    Rigidbody2D rigid;
+    SpriteRenderer spriteRenderer;
+    Animator animator;
+    float moveInput;
+
+    private void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
-    void OnTriggerEnter2D(Collider2D scanObject)
+    private void Update()
     {
-        ObjectData isObject = scanObject.GetComponent<ObjectData>();
-        if(isObject != null)
+        moveInput = Input.GetAxisRaw("Horizontal");
+        if(Input.GetButton("Horizontal"))
         {
-            currentObject = isObject;
-            Debug.Log(scanObject.name + "와 충돌하였습니다");
+            spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == 1;
+        }
+
+        if (rigid.velocity.x == 0)
+        {
+            animator.SetBool("isWalking", false);
+        }
+        else
+        {
+            animator.SetBool("isWalking", true);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D scanObject)
-    {
-        ObjectData isObject = scanObject.GetComponent<ObjectData>();
-        if(isObject != null && isObject == currentObject)
-        {
-            currentObject = null;
-            Debug.Log(scanObject.name + "와 충돌이 끝났습니다");
-        }
-    }
     private void FixedUpdate()
     {
-        if (!talkAction.isAction) 
-        {
-            float h = Input.GetAxisRaw("Horizontal");
-            rigid.AddForce(Vector2.right * h, ForceMode2D.Impulse);
-            if (rigid.velocity.x > maxSpeed)
-                rigid.velocity = new Vector2(maxSpeed, rigid.velocity.y);
-            else if (rigid.velocity.x < maxSpeed * (-1))
-                rigid.velocity = new Vector2(maxSpeed * (-1), rigid.velocity.y);
-        }
+        MovePlayer();
     }
 
-    void Update()
+    void MovePlayer()
     {
-        if(currentObject != null && Input.GetKeyDown(KeyCode.E))
-        {
-            talkAction.Action(currentObject.gameObject); 
-        }
+        Vector2 velocity = rigid.velocity;
+        velocity.x = moveInput * moveSpeed;
+        rigid.velocity = velocity;
     }
 
-
-    
 }
 
