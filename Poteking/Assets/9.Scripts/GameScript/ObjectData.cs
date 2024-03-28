@@ -15,7 +15,7 @@ public class ObjectData : MonoBehaviour
     {
         talkActionCall = FindObjectOfType<TalkAction>();
 
-        StartDialogue();
+        //StartDialogue();
     }
     void StartDialogue()
     {
