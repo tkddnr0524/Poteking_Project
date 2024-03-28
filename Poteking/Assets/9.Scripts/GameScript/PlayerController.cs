@@ -14,7 +14,8 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
-        
+        /* talkAction = GetComponent<TalkAction>();*/
+        talkAction = FindObjectOfType<TalkAction>();
     }
 
     
@@ -43,7 +44,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
 
-        if (!talkAction.isAction) 
+        if (!talkAction.isAction)
         {
             float h = Input.GetAxisRaw("Horizontal");
 
@@ -64,8 +65,11 @@ public class PlayerController : MonoBehaviour
     {
         if(currentObject != null && Input.GetKeyDown(KeyCode.E))
         {
-            talkAction.Action(currentObject.gameObject); 
-
+            talkAction.Action(currentObject.gameObject);
+            {
+                Debug.Log("액션실행");
+            }
+            Debug.Log("상호작용");
         }
     }
 

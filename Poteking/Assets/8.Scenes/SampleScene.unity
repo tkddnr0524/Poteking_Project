@@ -256,7 +256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bac04a777fd03c443b6c07dedc0eb486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 100
+  id: 1
   isNPC: 0
 --- !u!1 &87772655
 GameObject:
@@ -802,7 +802,6 @@ MonoBehaviour:
   talkManager: {fileID: 371224613}
   talkPanel: {fileID: 1876208831}
   talkText: {fileID: 596803707}
-  scanObject: {fileID: 0}
   isAction: 0
   talkIndex: 0
 --- !u!1 &371224612
@@ -1347,7 +1346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bac04a777fd03c443b6c07dedc0eb486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 1000
+  id: 0
   isNPC: 1
 --- !u!1 &1876208831
 GameObject:

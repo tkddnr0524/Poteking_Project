@@ -8,22 +8,4 @@ public class ObjectData : MonoBehaviour
     public int id;
     public bool isNPC;
 
-    TalkAction talkActionCall;
-
-
-    void Start()
-    {
-        talkActionCall = FindObjectOfType<TalkAction>();
-
-        StartDialogue();
-    }
-    void StartDialogue()
-    {
-
-        talkActionCall.Action(gameObject);
-
-
-    }
-
-
 }
