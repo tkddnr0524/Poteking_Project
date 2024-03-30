@@ -20,8 +20,13 @@ public class InteractiveAction : MonoBehaviour
         ObjectData isObject = scanObject.GetComponent<ObjectData>();
         if (isObject != null)
         {
-            currentObject = isObject;
-            Debug.Log(scanObject.name + "와 충돌하였습니다");
+            if (!talkAction.isAction)
+            {
+
+                currentObject = isObject;
+                Debug.Log(scanObject.name + "와 충돌하였습니다");
+            }
+
         }
 
 
@@ -45,7 +50,7 @@ public class InteractiveAction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentObject != null && Input.GetKeyDown(KeyCode.E))
+        if (currentObject != null && Input.GetKeyDown(KeyCode.F))
         {
             talkAction.Action(currentObject.gameObject);
             {

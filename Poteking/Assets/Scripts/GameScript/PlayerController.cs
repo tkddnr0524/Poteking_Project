@@ -6,15 +6,17 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 5f;//ÇÃ·¹ÀÌ¾î ÀÌµ¿ ¼Ó
+    public float moveSpeed = 5f;//ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ ï¿½Ìµï¿½ ï¿½ï¿½
 
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
     Animator animator;
     float moveInput;
+    TalkAction moveStop;
 
     private void Start()
     {
+        moveStop = FindObjectOfType<TalkAction>();
         rigid = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
@@ -22,19 +24,28 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        moveInput = Input.GetAxisRaw("Horizontal");
-        if(Input.GetButton("Horizontal"))
+        if(!moveStop.isAction)
         {
-            spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == 1;
-        }
+            moveInput = Input.GetAxisRaw("Horizontal");
+            if (Input.GetButton("Horizontal"))
+            {
+                spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == 1;
+            }
 
-        if (rigid.velocity.x == 0)
-        {
-            animator.SetBool("isWalking", false);
+            if (rigid.velocity.x == 0)
+            {
+                animator.SetBool("isWalking", false);
+            }
+            else
+            {
+                animator.SetBool("isWalking", true);
+            }
         }
         else
         {
-            animator.SetBool("isWalking", true);
+            // ï¿½ï¿½È­ ï¿½ï¿½ï¿½Ì¶ï¿½ï¿½ ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+            moveInput = 0f;
+            animator.SetBool("isWalking", false);
         }
     }
 
