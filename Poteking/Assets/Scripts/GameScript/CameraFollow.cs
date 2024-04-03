@@ -18,7 +18,7 @@ public class CameraFollow : MonoBehaviour
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
         transform.position = smoothedPosition;
 
-        // 캐릭터가 맵의 경계를 벗어나지 못하도록 제한
+        // 카메라가 맵의 경계를 벗어나지 못하도록 제한
         float clampedX = Mathf.Clamp(transform.position.x, minBounds.x, maxBounds.x);
         float clampedY = Mathf.Clamp(transform.position.y, minBounds.y, maxBounds.y);
         transform.position = new Vector3(clampedX, clampedY, transform.position.z);

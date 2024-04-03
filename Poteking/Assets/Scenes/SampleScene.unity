@@ -1323,7 +1323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1493939719}
-  smoothSpeed: 0.5
+  smoothSpeed: 0.125
   offset: {x: 0, y: 0, z: -1}
   minBounds: {x: -0.5, y: -10000}
   maxBounds: {x: 13.4, y: 10000}
