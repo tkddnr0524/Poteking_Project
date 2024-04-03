@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 
 public class SmartphoneController : MonoBehaviour
 {    
     public GameObject smartphoneScreen; // 스마트폰 화면을 나타내는 GameObject
+    public GameObject map; //맵 이미지를 담을 공간
     bool isScreenOn = false; //스마트폰 화면 상태
     void Start()
     {
