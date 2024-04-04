@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class sma : MonoBehaviour
 {
@@ -14,7 +15,33 @@ public class sma : MonoBehaviour
     public Button button2;
     public Button button3;
     public Button button4;
-    public Button button5;
+    public Button buttonX;
+    public Image image1;
+    public Image image2;
+    public Image image3;
+
+
+    public void Update()
+    {
+
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            OnButton1Click();
+            button4.Select();
+        }
+
+        GameObject selectedButton = EventSystem.current.currentSelectedGameObject;
+        if (selectedButton != null && selectedButton.transform.IsChildOf(transform))
+        {
+            image1.gameObject.SetActive(true);
+        }
+        else
+        {
+            // 이미지 UI 비활성화
+            image1.gameObject.SetActive(false);
+        }
+
+    }
 
     // 버튼 클릭 이벤트를 처리하는 함수
     public void OnButton1Click()
@@ -27,6 +54,8 @@ public class sma : MonoBehaviour
         button3.gameObject.SetActive(true);
         button4.gameObject.SetActive(true);
 
+        button4.Select();
+
     }
 
     public void OnButton2Click()
@@ -36,7 +65,7 @@ public class sma : MonoBehaviour
         button2.gameObject.SetActive(false);
         button3.gameObject.SetActive(false);
         button4.gameObject.SetActive(false);
-        button5.gameObject.SetActive(true);
+        buttonX.gameObject.SetActive(true);
     }
 
     public void OnButton5Click()
@@ -45,7 +74,7 @@ public class sma : MonoBehaviour
         button2.gameObject.SetActive(false);
         button3.gameObject.SetActive(false);
         button4.gameObject.SetActive(false);
-        button5.gameObject.SetActive(false);
+        buttonX.gameObject.SetActive(false);
 
         mapUI.gameObject.SetActive(false);
         talkUI.gameObject.SetActive(false);

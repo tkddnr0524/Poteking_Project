@@ -26,7 +26,6 @@ public class InteractiveAction : MonoBehaviour
                 currentObject = isObject;
                 Debug.Log(scanObject.name + "와 충돌하였습니다");
             }
-
         }
 
 

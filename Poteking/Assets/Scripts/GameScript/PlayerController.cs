@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 5f;//�÷��̾� �̵� ��
+    public float moveSpeed = 5f; //플레이어 이동속도
 
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            // ��ȭ ���̶�� �÷��̾��� �������� ����
+            
             moveInput = 0f;
             animator.SetBool("isWalking", false);
         }
