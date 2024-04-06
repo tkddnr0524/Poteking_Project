@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
             
             moveInput = 0f;
             animator.SetBool("isWalking", false);
-        }
+       }
     }
 
     private void FixedUpdate()
