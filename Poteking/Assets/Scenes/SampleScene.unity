@@ -3144,7 +3144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smartphoneScreen: {fileID: 494423523}
-  map: {fileID: 0}
 --- !u!114 &1477352472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4115,12 +4114,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 365613330}
   - {fileID: 399478930}
-  - {fileID: 14699764}
+  - {fileID: 365613330}
   - {fileID: 216064830}
-  - {fileID: 644234723}
+  - {fileID: 14699764}
   - {fileID: 622133180}
+  - {fileID: 644234723}
   m_Father: {fileID: 494423526}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

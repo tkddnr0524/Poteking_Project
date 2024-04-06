@@ -15,6 +15,7 @@ public class TalkManager : MonoBehaviour
 
     void GenerateData()
     {
+        
         // 대화 데이터를 이차원 배열로 초기화
         talkData = new string[][]
         {
