@@ -3144,7 +3144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smartphoneScreen: {fileID: 494423523}
-  map: {fileID: 0}
 --- !u!114 &1477352472
 MonoBehaviour:
   m_ObjectHideFlags: 0
