@@ -8,14 +8,16 @@ public class sma : MonoBehaviour
 {
     public GameObject smartUI; // 나타낼 이미지 UI
     public GameObject phoneUI;
-    public GameObject talkUI;
-    public GameObject mapUI;
+    public GameObject chatUI;
     public GameObject callUI;
-    public Button button1;
-    public Button button2;
-    public Button button3;
-    public Button button4;
+    public GameObject mapUI;
+    
+    public Button phoneButton;
+    public Button chatButton;
+    public Button callButton;
+    public Button mapButton;
     public Button buttonX;
+
     public Image image1;
     public Image image2;
     public Image image3;
@@ -26,11 +28,11 @@ public class sma : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.P))
         {
-            OnButton1Click();
-            button4.Select();
+            OnPhoneButtonClick();
+            chatButton.Select();
         }
 
-        GameObject selectedButton = EventSystem.current.currentSelectedGameObject;
+        /*GameObject selectedButton = EventSystem.current.currentSelectedGameObject;
         if (selectedButton != null && selectedButton.transform.IsChildOf(transform))
         {
             image1.gameObject.SetActive(true);
@@ -39,45 +41,67 @@ public class sma : MonoBehaviour
         {
             // 이미지 UI 비활성화
             image1.gameObject.SetActive(false);
-        }
+        }*/
 
     }
 
     // 버튼 클릭 이벤트를 처리하는 함수
-    public void OnButton1Click()
+    public void OnPhoneButtonClick()
     {
         // 이미지 UI를 활성화합니다.
         smartUI.SetActive(!smartUI.activeSelf);
-        
-        button1.gameObject.SetActive(false);
-        button2.gameObject.SetActive(true);
-        button3.gameObject.SetActive(true);
-        button4.gameObject.SetActive(true);
 
-        button4.Select();
+        phoneButton.gameObject.SetActive(false);
+        chatButton.gameObject.SetActive(true);
+        callButton.gameObject.SetActive(true);
+        mapButton.gameObject.SetActive(true);
+
+        chatButton.Select();
 
     }
 
-    public void OnButton2Click()
+    public void OnChatButtonClick()
     {
         smartUI.SetActive(!smartUI.activeSelf);
-        mapUI.SetActive(!mapUI.activeSelf);
-        button2.gameObject.SetActive(false);
-        button3.gameObject.SetActive(false);
-        button4.gameObject.SetActive(false);
+        chatUI.SetActive(!mapUI.activeSelf);
+        chatButton.gameObject.SetActive(false);
+        callButton.gameObject.SetActive(false);
+        mapButton.gameObject.SetActive(false);
         buttonX.gameObject.SetActive(true);
     }
 
-    public void OnButton5Click()
+    public void OnCallButtonClick()
     {
-        button1.gameObject.SetActive(true);
-        button2.gameObject.SetActive(false);
-        button3.gameObject.SetActive(false);
-        button4.gameObject.SetActive(false);
+        smartUI.SetActive(!smartUI.activeSelf);
+        callUI.SetActive(!callUI.activeSelf);
+        chatButton.gameObject.SetActive(false);
+        callButton.gameObject.SetActive(false);
+        mapButton.gameObject.SetActive(false);
+        buttonX.gameObject.SetActive(true);
+    }
+
+    public void OnMapButtonClick()
+    {
+        smartUI.SetActive(!smartUI.activeSelf);
+        mapUI.SetActive(!mapUI.activeSelf);
+        chatButton.gameObject.SetActive(false);
+        callButton.gameObject.SetActive(false);
+        mapButton.gameObject.SetActive(false);
+        buttonX.gameObject.SetActive(true);
+    }
+
+    
+
+    public void OnButtonXClick()
+    {
+        phoneButton.gameObject.SetActive(true);
+        chatButton.gameObject.SetActive(false);
+        callButton.gameObject.SetActive(false);
+        mapButton.gameObject.SetActive(false);
         buttonX.gameObject.SetActive(false);
 
         mapUI.gameObject.SetActive(false);
-        talkUI.gameObject.SetActive(false);
+        chatUI.gameObject.SetActive(false);
         callUI.gameObject.SetActive(false);
         smartUI.gameObject.SetActive(false);
     }
