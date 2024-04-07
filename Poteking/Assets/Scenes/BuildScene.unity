@@ -434,11 +434,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!4 &1049327402 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8801094834182084988, guid: b572240db2387d44d82979c3ac6970c9, type: 3}
-  m_PrefabInstance: {fileID: 721712707}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1320201638
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,7 +583,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1106,7 +1101,6 @@ GameObject:
   - component: {fileID: 2030520324}
   - component: {fileID: 2030520323}
   - component: {fileID: 2030520322}
-  - component: {fileID: 2030520325}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1182,29 +1176,12 @@ Transform:
   m_GameObject: {fileID: 2030520321}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0.18, y: 0.25, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2030520325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030520321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce3dc9c4b55ba53448e50b6b955cccb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1049327402}
-  offset: {x: 0, y: 0, z: 0}
-  smoothTime: 0.3
-  minBounds: {x: 0, y: 0}
-  maxBounds: {x: 0, y: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
