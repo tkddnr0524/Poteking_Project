@@ -10,10 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8cf3d2d308da0114db73d66d2ccc4f82, type: 3}
-  m_Name: NewNPCDataList
+  m_Name: NPCDataList
   m_EditorClassIdentifier: Assembly-CSharp::NPCDataList
   npcList:
-  - npcName: 
+  - npcName: "\uB2F4\uC784"
     npcId: 0
-    isNPC: 0
+    isNPC: 1
     dialogueData: {fileID: 11400000, guid: b217b21c0903d9144af6a653ff232177, type: 2}
+  - npcName: "\uC2EC\uB2E4\uC740"
+    npcId: 1
+    isNPC: 1
+    dialogueData: {fileID: 11400000, guid: 99dacd8065bbe0440834e73610c1f80a, type: 2}

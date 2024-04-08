@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8fd4a7bbf526b694fa45115ae849d15d, type: 3}
-  m_Name: NewDialogueData
+  m_Name: TeacherDialogueData
   m_EditorClassIdentifier: 
   dialogueList:
   - dialogueId: 0
     dialogueLines:
-    - dialogueText: 
-      speakerName: 
+    - dialogueText: "\uC120\uC0DD\uB2D8, \uC624\uD574\uC785\uB2C8\uB2E4!"
+      speakerName: "\uC131\uC18C\uB9AC"
       expression: {fileID: 0}
-    - dialogueText: 
-      speakerName: 
+    - dialogueText: "\uC624\uD574\uB77C\uB2C8, \uB108 \uB3D9\uC544\uB9AC \uAC00\uC785\uD588\uC5B4?"
+      speakerName: "\uB2F4\uC784"
       expression: {fileID: 0}
-    - dialogueText: 
-      speakerName: 
+    - dialogueText: "\uB124? \uC544\uB2C8\uC694?"
+      speakerName: "\uC131\uC18C\uB9AC"
       expression: {fileID: 0}
-    - dialogueText: 
-      speakerName: 
+  - dialogueId: 0
+    dialogueLines:
+    - dialogueText: "\uC548\uB155\uD558\uC138\uC694"
+      speakerName: "\uC131\uC18C\uB9AC"
       expression: {fileID: 0}
-    - dialogueText: 
-      speakerName: 
+    - dialogueText: "\uB2F4\uC784 \uC120\uC0DD\uB2D8"
+      speakerName: "\uC131\uC18C\uB9AC"
       expression: {fileID: 0}
-  - dialogueId: 1
-    dialogueLines: []
-  - dialogueId: 2
+  - dialogueId: 0
     dialogueLines:
     - dialogueText: 
       speakerName: 
