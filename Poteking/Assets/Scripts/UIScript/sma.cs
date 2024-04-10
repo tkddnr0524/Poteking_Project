@@ -36,7 +36,7 @@ public class sma : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.P) && pauseMenu.isPaused == false)
         {
             OnPhoneButtonClick();
-            chatButton.Select();
+            //chatButton.Select();
         }
 
         //if(Input.GetKeyDown(KeyCode.KeypadEnter) && pauseMenu.isPaused == false)
@@ -66,7 +66,7 @@ public class sma : MonoBehaviour
         callButton.gameObject.SetActive(true);
         mapButton.gameObject.SetActive(true);
 
-        chatButton.Select();
+        //chatButton.Select();
 
     }
 
