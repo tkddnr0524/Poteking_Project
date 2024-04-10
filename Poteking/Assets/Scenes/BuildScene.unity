@@ -1397,6 +1397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1064033584}
   soundPanel: {fileID: 1925890908}
+  isPaused: 0
 --- !u!1 &344804293
 GameObject:
   m_ObjectHideFlags: 0
@@ -2210,7 +2211,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &525749293
 RectTransform:
@@ -8204,5 +8205,5 @@ SceneRoots:
   - {fileID: 1580723391}
   - {fileID: 608892232}
   - {fileID: 659314717}
-  - {fileID: 525749293}
   - {fileID: 722000200}
+  - {fileID: 525749293}

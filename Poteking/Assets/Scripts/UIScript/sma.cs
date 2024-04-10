@@ -22,15 +22,25 @@ public class sma : MonoBehaviour
     public Image image2;
     public Image image3;
 
+    private PauseMenu pauseMenu;
+
+    void Start()
+    {
+        // PauseMenu 스크립트의 인스턴스를 찾아 할당
+        pauseMenu = FindObjectOfType<PauseMenu>();
+    }
 
     public void Update()
     {
 
-        if(Input.GetKeyDown(KeyCode.P))
+        if(Input.GetKeyDown(KeyCode.P) && pauseMenu.isPaused == false)
         {
             OnPhoneButtonClick();
             chatButton.Select();
         }
+
+        //if(Input.GetKeyDown(KeyCode.KeypadEnter) && pauseMenu.isPaused == false)
+
 
         /*GameObject selectedButton = EventSystem.current.currentSelectedGameObject;
         if (selectedButton != null && selectedButton.transform.IsChildOf(transform))
