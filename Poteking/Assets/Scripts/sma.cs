@@ -68,6 +68,8 @@ public class sma : MonoBehaviour
         callButton.gameObject.SetActive(false);
         mapButton.gameObject.SetActive(false);
         buttonX.gameObject.SetActive(true);
+
+        buttonX.Select();
     }
 
     public void OnCallButtonClick()
@@ -78,6 +80,8 @@ public class sma : MonoBehaviour
         callButton.gameObject.SetActive(false);
         mapButton.gameObject.SetActive(false);
         buttonX.gameObject.SetActive(true);
+
+        buttonX.Select();
     }
 
     public void OnMapButtonClick()
@@ -88,6 +92,8 @@ public class sma : MonoBehaviour
         callButton.gameObject.SetActive(false);
         mapButton.gameObject.SetActive(false);
         buttonX.gameObject.SetActive(true);
+
+        buttonX.Select();
     }
 
     
