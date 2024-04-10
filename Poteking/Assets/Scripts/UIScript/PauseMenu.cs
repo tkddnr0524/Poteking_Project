@@ -16,23 +16,24 @@ public class PauseMenu : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (isPaused && Input.GetKeyDown(KeyCode.Escape)) //퍼즈 상태고 ESC키를 누르면 
         {
-            if (isPaused)
-                Resume();
-            else
-                Pause();
+            Resume(); //게임 재개
+        }
+        else if(!isPaused && Input.GetKeyDown(KeyCode.Escape))
+        {
+            Pause();//게임 정지
         }
     }
 
-    public void Resume()
+    public void Resume() //게임 재개 함수
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f; // 게임 시간을 다시 시작
         isPaused = false;
     }
 
-    void Pause()
+    void Pause() //게임 정지 함수
     {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f; // 게임 시간을 멈춤
