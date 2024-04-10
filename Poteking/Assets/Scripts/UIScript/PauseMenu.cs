@@ -16,13 +16,9 @@ public class PauseMenu : MonoBehaviour
     }
     void Update()
     {
-        if (isPaused && Input.GetKeyDown(KeyCode.Escape)) //퍼즈 상태고 ESC키를 누르면 
+        if(!isPaused && Input.GetKeyDown(KeyCode.Escape))//퍼즈상태가 아니고 ESC를 누르면 퍼즈 
         {
-            Resume(); //게임 재개
-        }
-        else if(!isPaused && Input.GetKeyDown(KeyCode.Escape))
-        {
-            Pause();//게임 정지
+            Pause();
         }
     }
 
@@ -46,13 +42,4 @@ public class PauseMenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void OpenSettings()
-    {
-        soundPanel.SetActive(true);
-    }
-
-    public void QuitSettingMenu()
-    {
-        soundPanel.SetActive(false);
-    }
 }
