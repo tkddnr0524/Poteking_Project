@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: NPCDataList
   m_EditorClassIdentifier: Assembly-CSharp::NPCDataList
   npcList:
-  - npcName: "\uB2F4\uC784"
-    npcId: 0
+  - npcName: "\uC120\uC0DD\uB2D8"
+    npcId: 1000
     isNPC: 1
-    dialogueData: {fileID: 11400000, guid: b217b21c0903d9144af6a653ff232177, type: 2}
+    dialogueData: {fileID: 11400000, guid: 206858d0bcbcd8d4baee278cb01b8de3, type: 2}
   - npcName: "\uC2EC\uB2E4\uC740"
     npcId: 1
     isNPC: 1
