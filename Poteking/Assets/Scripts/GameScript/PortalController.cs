@@ -5,7 +5,6 @@ using UnityEngine;
 public class PortalController : MonoBehaviour
 {
     public Transform destinationPortal; //이동 할 포탈
-
     private bool isPlayerInRange; //플레이어가 포탈 근처에 있는 여부
 
     private void OnTriggerEnter2D(Collider2D other)
