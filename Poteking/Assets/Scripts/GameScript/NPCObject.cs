@@ -32,10 +32,7 @@ public class NPCObject : MonoBehaviour
             // 필요한 설정들을 수행할 수 있습니다.
 
             // 대화 데이터 설정
-            if (npcData.dialogueData != null)
-            {
-                dialogueData = npcData.dialogueData;
-            }
+            dialogueData = npcData.dialogueData;
         }
     }
 }
