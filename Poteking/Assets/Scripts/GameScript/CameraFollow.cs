@@ -1,27 +1,17 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform player;
-    public Vector3 offset;
-    public float smoothTime = 0.3f;
-    public Vector2 minBounds;
-    public Vector2 maxBounds;
+    public Transform player; //플레이어 위치
+    public Vector3 offset; //플레이어와 카메라 사이 거리
 
-    private Vector3 velocity;
-
-    void FixedUpdate()
+    private void Update()
     {
-        Vector3 targetPosition = player.position + offset;
-        Vector3 smoothedPosition = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
-
-        // ī�޶� ��ġ ����
-        float clampedX = Mathf.Clamp(smoothedPosition.x, minBounds.x, maxBounds.x);
-        float clampedY = Mathf.Clamp(smoothedPosition.y, minBounds.y, maxBounds.y);
-
-        transform.position = new Vector3(clampedX, clampedY, transform.position.z);
+        Vector3 playerPosition = player.position + offset;
+        transform.position = new Vector3(playerPosition.x, playerPosition.y, transform.position.z);
     }
 }
+
 

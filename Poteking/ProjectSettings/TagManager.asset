@@ -7,6 +7,7 @@ TagManager:
   - Object
   - Wall
   - Map
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -52,4 +53,7 @@ TagManager:
     locked: 0
   - name: SmartPhone
     uniqueID: 1644139833
+    locked: 0
+  - name: FadeOut
+    uniqueID: 2247790623
     locked: 0

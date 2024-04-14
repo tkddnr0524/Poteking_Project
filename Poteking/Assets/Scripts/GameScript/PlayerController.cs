@@ -12,11 +12,11 @@ public class PlayerController : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Animator animator;
     float moveInput;
-    TalkAction moveStop;
+    
 
     private void Start()
     {
-        moveStop = FindObjectOfType<TalkAction>();
+      
         rigid = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
@@ -24,29 +24,22 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if(!moveStop.isAction)
-        {
-            moveInput = Input.GetAxisRaw("Horizontal");
-            if (Input.GetButton("Horizontal"))
-            {
-                spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == 1;
-            }
 
-            if (rigid.velocity.x == 0)
-            {
-                animator.SetBool("isWalking", false);
-            }
-            else
-            {
-                animator.SetBool("isWalking", true);
-            }
+        moveInput = Input.GetAxisRaw("Horizontal");
+        if (Input.GetButton("Horizontal"))
+        {
+            spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == 1;
+        }
+
+        if (rigid.velocity.x == 0)
+        {
+            animator.SetBool("isWalking", false);
         }
         else
         {
-            
-            moveInput = 0f;
-            animator.SetBool("isWalking", false);
-       }
+            animator.SetBool("isWalking", true);
+        }
+
     }
 
     private void FixedUpdate()
