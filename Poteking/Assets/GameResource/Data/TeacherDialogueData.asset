@@ -21,6 +21,9 @@ MonoBehaviour:
     - dialogueText: "\uB124 \uC120\uC0DD\uB2D8"
       speakerName: "\uC8FC\uC778\uACF5"
       expression: {fileID: 0}
+    - dialogueText: "\uBB34\uC2A8 \uC77C\uC774\uC138\uC694?"
+      speakerName: "\uC8FC\uC778\uACF5"
+      expression: {fileID: 0}
   - dialogueId: 1002
     dialogueLines:
     - dialogueText: "\uB108 \uB3D9\uC544\uB9AC \uB4E4\uC5B4\uAC00"
