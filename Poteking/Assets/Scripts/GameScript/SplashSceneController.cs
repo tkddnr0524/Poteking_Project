@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SplashSceneController : MonoBehaviour
 {
-    private float splashScreenTime = 4f; //스플래시 화면이 표시될 시간
-    private float fadeDuration = 3f; //페이드 아웃에 걸리는 시간
+    private float fadeDuration = 5f; //페이드 아웃에 걸리는 시간
     public AnimationCurve fadeCurve; // 페이드 인/아웃에 사용 할 애니메이션 커브.
     private CanvasGroup canvasGroup;
 
@@ -18,6 +17,9 @@ public class SplashSceneController : MonoBehaviour
 
     IEnumerator FadeOutAndLoadScene()
     {
+        //2초 뒤 페이드 아웃 시작
+        yield return new WaitForSeconds(2f);
+
         float elapsedTime = 0f;
         while (elapsedTime < fadeDuration)
         {
