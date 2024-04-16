@@ -19,16 +19,16 @@ MonoBehaviour:
       speakerName: "\uC120\uC0DD\uB2D8"
       expression: {fileID: 0}
     - dialogueText: "\uB124 \uC120\uC0DD\uB2D8"
-      speakerName: "\uC8FC\uC778\uACF5"
-      expression: {fileID: 0}
+      speakerName: "\uC131\uC18C\uB9AC"
+      expression: {fileID: 21300000, guid: f29a485d82df7d2468fb814b070a56e7, type: 3}
     - dialogueText: "\uBB34\uC2A8 \uC77C\uC774\uC138\uC694?"
-      speakerName: "\uC8FC\uC778\uACF5"
-      expression: {fileID: 0}
+      speakerName: "\uC131\uC18C\uB9AC"
+      expression: {fileID: 21300000, guid: f29a485d82df7d2468fb814b070a56e7, type: 3}
   - dialogueId: 1002
     dialogueLines:
     - dialogueText: "\uB108 \uB3D9\uC544\uB9AC \uB4E4\uC5B4\uAC00"
       speakerName: "\uC120\uC0DD\uB2D8"
       expression: {fileID: 0}
-    - dialogueText: "\uC2EB\uC5B4\uC694"
-      speakerName: "\uC8FC\uC778\uACF5"
-      expression: {fileID: 0}
+    - dialogueText: "\uB124??.."
+      speakerName: "\uC131\uC18C\uB9AC"
+      expression: {fileID: 21300000, guid: 30d80d215baa0f34da5efe07ab4b88b7, type: 3}
