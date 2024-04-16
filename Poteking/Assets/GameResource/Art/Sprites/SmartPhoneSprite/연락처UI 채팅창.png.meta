@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4cbb731e20e5a6f41b22c44b8028b7a1
+guid: 782abbd3ebb57a64ca8cee31276d2e08
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,19 +94,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -119,17 +106,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kekeoImage_0
+      name: "\uC5F0\uB77D\uCC98UI \uCC44\uD305\uCC3D_0"
       rect:
         serializedVersion: 2
-        x: 6
-        y: 95
-        width: 32
-        height: 32
+        x: 158
+        y: 262
+        width: 402
+        height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd21e5aa74d9d4343ae5f2fe2655aaa3
-      internalID: 722633315
+      spriteID: cb15c1a498e383f4b9b2b53999231027
+      internalID: -25515253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kekeoImage_1
+      name: "\uC5F0\uB77D\uCC98UI \uCC44\uD305\uCC3D_1"
       rect:
         serializedVersion: 2
-        x: 39
-        y: 95
-        width: 32
-        height: 32
+        x: 642
+        y: 256
+        width: 402
+        height: 718
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,134 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a27c609e2b93a94eac76ad90ea415b8
-      internalID: -1423198944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kekeoImage_2
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 95
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee6c65ee871ddb04eba5e21da84a72b8
-      internalID: 604173442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kekeoImage_3
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 76
-        width: 92
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 685a48a2dcdd7f54e853f704d3de4682
-      internalID: 480180904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kekeoImage_4
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 69
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 487144fa8cabaa94d80c709f92de54f1
-      internalID: 551742820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kekeoImage_5
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 48
-        width: 112
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fabc4c89755648c449d9ac82203912d4
-      internalID: 361064306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kekeoImage_6
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 20
-        width: 112
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96abd81ffef70544fa22d7bfc9f6639a
-      internalID: -1051484763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kekeoImage_7
-      rect:
-        serializedVersion: 2
-        x: 119
-        y: 40
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c5cbc2941077744bb3d3c60ee6570b4
-      internalID: 1088661324
+      spriteID: 031f0b5194e1e0b44917232d0d1286a3
+      internalID: -1249259411
       vertices: []
       indices: 
       edges: []
@@ -301,14 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      kekeoImage_0: 722633315
-      kekeoImage_1: -1423198944
-      kekeoImage_2: 604173442
-      kekeoImage_3: 480180904
-      kekeoImage_4: 551742820
-      kekeoImage_5: 361064306
-      kekeoImage_6: -1051484763
-      kekeoImage_7: 1088661324
+      "\uC5F0\uB77D\uCC98UI \uCC44\uD305\uCC3D_0": -25515253
+      "\uC5F0\uB77D\uCC98UI \uCC44\uD305\uCC3D_1": -1249259411
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
