@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 
@@ -19,8 +20,11 @@ public class DialogueEntry
 [System.Serializable]
 public class DialogueLine
 {
+    [Multiline]
     public string dialogueText; // 대화 내용
     public string speakerName; // 대화를 말하는 NPC의 이름
     public Sprite expression; // 대화를 말하는 NPC의 표정 이미지
+
+
 }
 
