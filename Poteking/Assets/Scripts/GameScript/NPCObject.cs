@@ -10,17 +10,11 @@ public class NPCObject : MonoBehaviour
     // NPC 데이터
     private NPCData npcData;
 
-    
     // NPC 대화 데이터
     public DialogueData dialogueData;
 
-    
-   
-
     private void Start()
     {
-       
-
         // NPC 매니저에서 해당 NPC ID에 대한 NPC 데이터 가져오기
         npcData = NPCManager.Instance.GetNPCData(npcId);
 

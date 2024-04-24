@@ -7,13 +7,11 @@ using UnityEngine.EventSystems;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f; //플레이어 이동속도
-
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
     Animator animator;
     float moveInput;
     
-
     private void Start()
     {
       

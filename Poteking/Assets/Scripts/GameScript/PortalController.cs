@@ -41,7 +41,6 @@ public class PortalController : MonoBehaviour
                 player.transform.position = destinationPortal.position;
             }
         }
-        
     }
    
 }
