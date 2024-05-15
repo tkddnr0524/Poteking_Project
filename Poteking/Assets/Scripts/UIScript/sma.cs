@@ -17,17 +17,22 @@ public class sma : MonoBehaviour
     public Button callButton;
     public Button mapButton;
     public Button buttonX;
+    public Button buttonMapX;
 
     public Image image1;
     public Image image2;
     public Image image3;
 
     private PauseMenu pauseMenu;
+    private Camera mapCamera;
 
     void Start()
     {
         // PauseMenu 스크립트의 인스턴스를 찾아 할당
         pauseMenu = FindObjectOfType<PauseMenu>();
+
+        //맵(서브) 카메라 오브젝트 찾기
+        mapCamera = GameObject.Find("MapCamera").GetComponent<Camera>();
     }
 
     public void Update()
@@ -97,15 +102,27 @@ public class sma : MonoBehaviour
     public void OnMapButtonClick()
     {
         smartUI.SetActive(!smartUI.activeSelf);
-        mapUI.SetActive(!mapUI.activeSelf);
+        //mapUI.SetActive(!mapUI.activeSelf);
         chatButton.gameObject.SetActive(false);
         callButton.gameObject.SetActive(false);
         mapButton.gameObject.SetActive(false);
-        buttonX.gameObject.SetActive(true);
+        //buttonX.gameObject.SetActive(true);
+        mapCamera.enabled= !mapCamera.enabled;
+
+        Time.timeScale = 0f;
+
+        buttonMapX.gameObject.SetActive(true);
 
         buttonX.Select();
     }
 
+    public void OnButtonMapXClick()
+    {
+        Time.timeScale = 1f;
+        phoneButton.gameObject.SetActive(true);
+        mapCamera.enabled = !mapCamera.enabled;
+        buttonMapX.gameObject.SetActive(false);
+    }
     
 
     public void OnButtonXClick()

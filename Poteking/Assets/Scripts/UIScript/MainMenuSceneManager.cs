@@ -28,7 +28,7 @@ public class MainMenuSceneManager : MonoBehaviour
             elapsedTime += Time.deltaTime;
             color.a = 1f - (elapsedTime / duration);
             fadeImage.color = color;
-            yield return null; //한 프레임동안 대기한다.
+            yield return null; 
         }
 
         color.a = 0f;
@@ -37,3 +37,4 @@ public class MainMenuSceneManager : MonoBehaviour
     }
 
 }
+

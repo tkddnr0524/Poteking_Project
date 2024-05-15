@@ -2,11 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
-
-
-
 public class DialogueInteraction : MonoBehaviour
 {
     private DialogueData dialogueData;
@@ -23,7 +18,7 @@ public class DialogueInteraction : MonoBehaviour
             isColliding = true; // 충돌 상태를 true로 설정
         }
     }
-
+    
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
