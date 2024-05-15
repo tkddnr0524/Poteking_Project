@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueList:
   - dialogueId: 0
     dialogueLines:
-    - dialogueText: "\uC2E4\uB840\uD569\uB2C8\uB2E4.\n"
+    - dialogueText: "\uC2E4\uB840\uD569\uB2C8\uB2E4."
       speakerName: "\uC131\uC18C\uB9AC"
       expression: {fileID: 21300000, guid: f29a485d82df7d2468fb814b070a56e7, type: 3}
     - dialogueText: "\uC73C\uC544\uC545! \uBB50\uC57C."
