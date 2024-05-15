@@ -24,6 +24,9 @@ MonoBehaviour:
     - dialogueText: "\uBB34\uC2A8 \uC77C\uC774\uC138\uC694?"
       speakerName: "\uC131\uC18C\uB9AC"
       expression: {fileID: 21300000, guid: f29a485d82df7d2468fb814b070a56e7, type: 3}
+    dialogueEvent:
+      startEvent: {fileID: 11400000, guid: 189d6d9e7c401404fb466e8365e78b19, type: 2}
+      targetObject: {fileID: 0}
   - dialogueId: 1002
     dialogueLines:
     - dialogueText: "\uB108 \uB3D9\uC544\uB9AC \uB4E4\uC5B4\uAC00"
@@ -32,3 +35,6 @@ MonoBehaviour:
     - dialogueText: "\uB124??.."
       speakerName: "\uC131\uC18C\uB9AC"
       expression: {fileID: 21300000, guid: 30d80d215baa0f34da5efe07ab4b88b7, type: 3}
+    dialogueEvent:
+      startEvent: {fileID: 0}
+      targetObject: {fileID: 0}

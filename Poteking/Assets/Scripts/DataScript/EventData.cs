@@ -6,8 +6,7 @@ using UnityEngine;
 public class EventData : ScriptableObject
 {
     public string eventName; // 이벤트 이름
-    public string triggerCondition; // 발생 조건
-    public string eventEffect; // 이벤트 효과
+    public string eventEffect; //실행될 이벤트 효과
     public int limit = 1; // 발생 횟수 제한, 기본값은 1
 
     // 이벤트 발생 시 호출되는 메서드
@@ -23,4 +22,6 @@ public class EventData : ScriptableObject
             Debug.Log(eventName + " 더 이상 발생 불가!"); // 발생 횟수 제한에 도달한 경우
         }
     }
+
+   
 }
