@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class SplashSceneManager : MonoBehaviour
+public class SplashSceneFadeOut : MonoBehaviour
 {
     Image fadeImage;
 
@@ -21,9 +21,9 @@ public class SplashSceneManager : MonoBehaviour
     private IEnumerator FadeOut(float duration)
     {
         fadeImage.enabled = true;
-
         Color color = fadeImage.color;
         float elapsedTime = 0f;
+
         while (fadeImage.color.a < 1f) //알파 값이 0이 될때까지 반복
         {
             elapsedTime += Time.deltaTime;
@@ -36,6 +36,4 @@ public class SplashSceneManager : MonoBehaviour
         fadeImage.color = color;
         SceneManager.LoadScene("01.MainMenu");
     }
-
 }
-

@@ -45,15 +45,3 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Object
-    uniqueID: 210955847
-    locked: 0
-  - name: Player
-    uniqueID: 2549108301
-    locked: 0
-  - name: SmartPhone
-    uniqueID: 1644139833
-    locked: 0
-  - name: FadeOut
-    uniqueID: 2247790623
-    locked: 0

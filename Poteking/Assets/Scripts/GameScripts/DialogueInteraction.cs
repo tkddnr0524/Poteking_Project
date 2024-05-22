@@ -88,5 +88,6 @@ public class DialogueInteraction : MonoBehaviour
     {
         isDialogueActive = false; // 대화가 종료되었으므로 false로 설정
         dialogueUIManager.HideDialogue();
+        dialogueUIManager.talkBackground.gameObject.SetActive(false); //대화 종료 시 배경이미지 비활성화
     }
 }

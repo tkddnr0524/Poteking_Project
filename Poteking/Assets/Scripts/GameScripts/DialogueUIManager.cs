@@ -5,15 +5,20 @@ using UnityEngine.UI;
 
 public class DialogueUIManager : MonoBehaviour
 {
-    public GameObject dialoguePanel;
-    public Text speakerNameText;
-    public Text dialogueText;
-    public Image leftExpressionImage; // 왼쪽 캐릭터 표정 이미지를 표시할 UI 요소
-    public Image rightExpressionImage; // 오른쪽 캐릭터 표정 이미지를 표시할 UI 요소
+    // 대화 씬 
+    // 대화 진입 시에 씬 이동 또는 화면을 뒷배경 이미지로 가려서 다른 공간에서 대화를 하는 것처럼 구현 
+    public Image talkBackground; // 배경 이미지 공간
+    public GameObject dialoguePanel; // 대화창
+    public Text speakerNameText; // 대화창에 띄울 말하는 사람이름
+    public Text dialogueText; // 대화창에 띄울 대화 내용
+    public Image leftExpressionImage; // 왼쪽에 띄울 캐릭터 표정 이미지
+    public Image rightExpressionImage; // 오른쪽에 띄울 캐릭터 표정 이미지
+
 
     // 대화 창을 표시하는 함수
     public void ShowDialogueUI(DialogueLine line, bool isLeftSpeaker)
     {
+        talkBackground.gameObject.SetActive(true);
         // 대화 창을 활성화합니다.
         dialoguePanel.SetActive(true);
 
@@ -22,13 +27,14 @@ public class DialogueUIManager : MonoBehaviour
         dialogueText.text = line.dialogueText;
 
         // 캐릭터 표정을 업데이트합니다.
-        if (isLeftSpeaker)
+        if (isLeftSpeaker) //왼쪽 캐릭터 활성화, 오른쪽 비활성화
         {
+            
             leftExpressionImage.sprite = line.expression;
             leftExpressionImage.gameObject.SetActive(true);
             rightExpressionImage.gameObject.SetActive(false);
         }
-        else
+        else  //아니라면 오른쪽 캐릭터 활성화, 왼쪽 비활성화
         {
             rightExpressionImage.sprite = line.expression;
             rightExpressionImage.gameObject.SetActive(true);
@@ -36,7 +42,7 @@ public class DialogueUIManager : MonoBehaviour
         }
     }
 
-    // 대화 창을 숨기는 함수
+    // 대화창 비활성화 함수
     public void HideDialogue()
     {
         // 대화 창을 비활성화합니다.
