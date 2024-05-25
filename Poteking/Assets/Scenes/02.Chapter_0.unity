@@ -4008,7 +4008,7 @@ GameObject:
   - component: {fileID: 1002286166}
   - component: {fileID: 1002286165}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Conversation Scene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4690,7 +4690,7 @@ GameObject:
   - component: {fileID: 1190191541}
   - component: {fileID: 1190191542}
   m_Layer: 5
-  m_Name: TalkBackGround
+  m_Name: Conversation BackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5269,12 +5269,12 @@ GameObject:
   - component: {fileID: 1405895895}
   - component: {fileID: 1405895894}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1405895893
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6888,7 +6888,7 @@ GameObject:
   - component: {fileID: 1867553118}
   - component: {fileID: 1867553117}
   m_Layer: 5
-  m_Name: Image
+  m_Name: DialogueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
