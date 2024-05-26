@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 #if UNITY_EDITOR
 using UnityEditor;
@@ -19,6 +20,8 @@ public class PlayerController : MonoBehaviour
     public DialogueUIController dialogueUIController;
     public IllustratorBox illustratorBox;
     public BackGroundBox backGroundBox;
+    public Button Choice1Button;
+    public Button Choice2Button;
 
     private bool isDialogueActive = false;
     public float range = 2.0f;
@@ -86,7 +89,7 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    void InteractWithNPC()
+    public void InteractWithNPC()
     {
         //오버랩된 NPC 오브젝트를 가져온다 (TAG 사용)
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, range);
@@ -104,17 +107,14 @@ public class PlayerController : MonoBehaviour
                     Debug.Log($"Dialog : {npcParam.Dialog}");
 
 
-                    dialogueUIController.NPCName.text = npcParam.npcname;
+                    dialogueUIController.npcName.text = npcParam.npcname;
                     dialogueUIController.dialogueText.text = npcParam.Dialog;
+                    dialogueUIController.choice1Text.text = npcParam.choice1text;
+                    dialogueUIController.choice2Text.text = npcParam.choice2text;
 
                     if (npcParam.background >= 0 && npcParam.background < backGroundBox.backGroundList.Length)
                     {
                         dialogueUIController.backGround.sprite = backGroundBox.backGroundList[npcParam.background];
-                    }
-
-                    if (npcParam.leftface >= 0 && npcParam.leftface < illustratorBox.illustratorList.Length)
-                    {
-                        dialogueUIController.leftFace.sprite = illustratorBox.illustratorList[npcParam.leftface];
                     }
 
                     // 왼쪽 캐릭터 일러스트 설정
@@ -149,11 +149,35 @@ public class PlayerController : MonoBehaviour
                         gameStateManager.gameState = npcParam.changeState;
                     }
 
+                    if (npcParam.choice1 > 0 || npcParam.choice2 > 0)
+                    {
+                        dialogueUIController.ChoiceUi(true);
+
+                        // Choice1Button과 Choice2Button에 대한 클릭 이벤트 핸들러 설정
+                        Choice1Button.onClick.AddListener(() =>
+                        {
+                            // 선택지 1에 대한 동작 구현
+                            gameStateManager.gameState = npcParam.choice1;
+                            InteractWithNPC();
+                            // Choice1Button 클릭 이벤트 후에 ChoiceUi를 false로 변경
+                            dialogueUIController.ChoiceUi(false);
+                        });
+
+                        Choice2Button.onClick.AddListener(() =>
+                        {
+                            // 선택지 2에 대한 동작 구현
+                            gameStateManager.gameState = npcParam.choice2;
+                            InteractWithNPC();
+                            // Choice2Button 클릭 이벤트 후에 ChoiceUi를 false로 변경
+                            dialogueUIController.ChoiceUi(false);
+                        });
+                    }
                     //대화UI 활성화
                     dialogueUIController.ActiveUI(true);
                     //isDialogueActive = true;
 
-
+                    
+                    
 
                 }
                 else
@@ -171,7 +195,7 @@ public class PlayerController : MonoBehaviour
     {
         dialogueUIController.ActiveUI(false);
         dialogueUIController.LeftFaceUi(false);
-        dialogueUIController.RightFaceUi(false);
+        dialogueUIController.RightFaceUi(false);        
         //isDialogueActive = false;
     }
 }

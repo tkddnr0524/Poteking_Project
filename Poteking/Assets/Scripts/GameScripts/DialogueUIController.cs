@@ -11,9 +11,12 @@ public class DialogueUIController : MonoBehaviour
     public Image rightFace;
     public GameObject dialogueBox;
     public Text dialogueText;
-    public GameObject NPCNameBox;
-    public Text NPCName;
-    
+    public GameObject npcNameBox;
+    public Text npcName;
+    public GameObject choiceBox;
+    public Text choice1Text;
+    public Text choice2Text;
+
 
     public void ActiveUI(bool dialogueState)
     {
@@ -21,8 +24,9 @@ public class DialogueUIController : MonoBehaviour
         if (backGround != null) backGround.gameObject.SetActive(dialogueState);
         if (dialogueBox != null) dialogueBox.SetActive(dialogueState);
         if (dialogueText != null) dialogueText.gameObject.SetActive(dialogueState);
-        if (NPCNameBox != null) NPCNameBox.SetActive(dialogueState);
-        if (NPCName != null) NPCName.gameObject.SetActive(dialogueState);
+        if (npcNameBox != null) npcNameBox.SetActive(dialogueState);
+        if (npcName != null) npcName.gameObject.SetActive(dialogueState);
+        
     }
 
     
@@ -36,4 +40,10 @@ public class DialogueUIController : MonoBehaviour
         if (rightFace != null) rightFace.gameObject.SetActive(dialogueState);
     }
 
+    public void ChoiceUi(bool dialogueState)
+    {
+        if (npcName != null) choiceBox.SetActive(dialogueState);
+        if (npcName != null) choice1Text.gameObject.SetActive(dialogueState);
+        if (npcName != null) choice2Text.gameObject.SetActive(dialogueState);
+    }
 }

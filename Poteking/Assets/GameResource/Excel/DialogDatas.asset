@@ -23,6 +23,8 @@ MonoBehaviour:
       changeState: 2
       choice1: 0
       choice2: 0
+      choice1text: "\uC120\uD0DD\uC9C01"
+      choice2text: "\uC120\uD0DD\uC9C01"
       leftface: 1
       rightface: 0
       background: 0
@@ -34,6 +36,8 @@ MonoBehaviour:
       changeState: 0
       choice1: 0
       choice2: 0
+      choice1text: "\uC120\uD0DD\uC9C02"
+      choice2text: "\uC120\uD0DD\uC9C02"
       leftface: 1
       rightface: 0
       background: 0
@@ -43,8 +47,10 @@ MonoBehaviour:
       npcname: npc1
       Dialog: "2\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 1\uBC88 \uB300\uD654"
       changeState: 3
-      choice1: 0
-      choice2: 0
+      choice1: 3
+      choice2: 4
+      choice1text: "\uC120\uD0DD\uC9C03"
+      choice2text: "\uC120\uD0DD\uC9C03"
       leftface: 0
       rightface: 6
       background: 0
@@ -56,6 +62,8 @@ MonoBehaviour:
       changeState: 4
       choice1: 0
       choice2: 0
+      choice1text: "\uC120\uD0DD\uC9C04"
+      choice2text: "\uC120\uD0DD\uC9C04"
       leftface: 4
       rightface: 9
       background: 0
@@ -67,6 +75,8 @@ MonoBehaviour:
       changeState: 5
       choice1: 0
       choice2: 0
+      choice1text: "\uC120\uD0DD\uC9C05"
+      choice2text: "\uC120\uD0DD\uC9C05"
       leftface: 0
       rightface: 8
       background: 0
@@ -78,6 +88,8 @@ MonoBehaviour:
       changeState: 6
       choice1: 0
       choice2: 0
+      choice1text: "\uC120\uD0DD\uC9C06"
+      choice2text: "\uC120\uD0DD\uC9C06"
       leftface: 1
       rightface: 1
       background: 0
@@ -89,17 +101,21 @@ MonoBehaviour:
       changeState: 7
       choice1: 0
       choice2: 0
+      choice1text: "\uC120\uD0DD\uC9C07"
+      choice2text: "\uC120\uD0DD\uC9C07"
       leftface: 0
       rightface: 0
       background: 0
     - index: 8
-      npc: 4
-      gamestate: 1
+      npc: 1
+      gamestate: 4
       npcname: "\uC8FC\uC778\uACF5"
-      Dialog: "1\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 4\uBC88 \uB300\uD654"
-      changeState: 2
+      Dialog: "4\uBC88 \uAC8C\uC784 \uC0C1\uD0DC\uC758 NPC 1\uBC88 \uB300\uD654"
+      changeState: 5
       choice1: 0
       choice2: 0
+      choice1text: "\uC120\uD0DD\uC9C08"
+      choice2text: "\uC120\uD0DD\uC9C08"
       leftface: 1
       rightface: 1
       background: 0
@@ -111,6 +127,8 @@ MonoBehaviour:
       changeState: 0
       choice1: 0
       choice2: 0
+      choice1text: "\uC120\uD0DD\uC9C09"
+      choice2text: "\uC120\uD0DD\uC9C09"
       leftface: 1
       rightface: 1
       background: 0
