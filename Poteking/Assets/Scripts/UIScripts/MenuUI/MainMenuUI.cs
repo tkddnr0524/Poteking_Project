@@ -10,11 +10,6 @@ public class MainMenuUI : MonoBehaviour
         SceneManager.LoadScene("02.Chapter_0");
     }
 
-    public void OnClickOptionBtn()
-    {
-        Debug.Log("옵션 창 활성화");
-    }
-
     public void OnClickQuitBtn()
     {
         Application.Quit();
