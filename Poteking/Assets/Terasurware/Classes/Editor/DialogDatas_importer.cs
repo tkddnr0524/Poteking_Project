@@ -58,9 +58,11 @@ public class DialogDatas_importer : AssetPostprocessor {
 					cell = row.GetCell(5); p.changeState = (int)(cell == null ? 0 : cell.NumericCellValue);
 					cell = row.GetCell(6); p.choice1 = (int)(cell == null ? 0 : cell.NumericCellValue);
 					cell = row.GetCell(7); p.choice2 = (int)(cell == null ? 0 : cell.NumericCellValue);
-					cell = row.GetCell(8); p.leftface = (int)(cell == null ? 0 : cell.NumericCellValue);
-					cell = row.GetCell(9); p.rightface = (int)(cell == null ? 0 : cell.NumericCellValue);
-					cell = row.GetCell(10); p.background = (int)(cell == null ? 0 : cell.NumericCellValue);
+					cell = row.GetCell(8); p.choice1text = (cell == null ? "" : cell.StringCellValue);
+					cell = row.GetCell(9); p.choice2text = (cell == null ? "" : cell.StringCellValue);
+					cell = row.GetCell(10); p.leftface = (int)(cell == null ? 0 : cell.NumericCellValue);
+					cell = row.GetCell(11); p.rightface = (int)(cell == null ? 0 : cell.NumericCellValue);
+					cell = row.GetCell(12); p.background = (int)(cell == null ? 0 : cell.NumericCellValue);
 						s.list.Add (p);
 					}
 					data.sheets.Add(s);

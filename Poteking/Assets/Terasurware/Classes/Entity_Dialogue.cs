@@ -25,6 +25,8 @@ public class Entity_Dialogue : ScriptableObject
 		public int changeState;
 		public int choice1;
 		public int choice2;
+		public string choice1text;
+		public string choice2text;
 		public int leftface;
 		public int rightface;
 		public int background;
