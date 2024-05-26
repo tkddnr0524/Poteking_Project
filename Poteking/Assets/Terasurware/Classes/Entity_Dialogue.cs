@@ -20,8 +20,14 @@ public class Entity_Dialogue : ScriptableObject
 		public int index;
 		public int npc;
 		public int gamestate;
+		public string npcname;
 		public string Dialog;
 		public int changeState;
+		public int choice1;
+		public int choice2;
+		public int leftface;
+		public int rightface;
+		public int background;
 	}
 }
 
