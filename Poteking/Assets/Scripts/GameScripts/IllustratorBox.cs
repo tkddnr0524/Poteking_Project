@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPCActor : MonoBehaviour
+public class IllustratorBox : MonoBehaviour
 {
-    
-    public int npcNumber = 0;
+    public Sprite[] illustratorList;
+
 }
