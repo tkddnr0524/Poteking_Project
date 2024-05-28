@@ -20,10 +20,11 @@ public class PlayerController : MonoBehaviour
     public DialogueUIController dialogueUIController;
     public IllustratorBox illustratorBox;
     public BackGroundBox backGroundBox;
+    public InsertImageBox insertImageBox;
     public Button Choice1Button;
     public Button Choice2Button;
 
-    private bool isDialogueActive = false;
+    //private bool isDialogueActive = false;
     public float range = 2.0f;
 
     private void OnDrawGizmosSelected()
@@ -139,6 +140,18 @@ public class PlayerController : MonoBehaviour
                     {
                         // 일러스트를 숨김
                         dialogueUIController.RightFaceUi(false);
+                    }
+
+                    // 중간 이미지 설정
+                    if (npcParam.midimage > 0 && npcParam.midimage < insertImageBox.insertImageList.Length)
+                    {
+                        dialogueUIController.MiddleImageUi(true);
+                        dialogueUIController.middleImage.sprite = insertImageBox.insertImageList[npcParam.midimage];
+                    }
+                    else
+                    {
+                        // 일러스트를 숨김
+                        dialogueUIController.MiddleImageUi(false);
                     }
 
 

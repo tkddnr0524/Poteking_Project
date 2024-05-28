@@ -63,6 +63,7 @@ public class DialogDatas_importer : AssetPostprocessor {
 					cell = row.GetCell(10); p.leftface = (int)(cell == null ? 0 : cell.NumericCellValue);
 					cell = row.GetCell(11); p.rightface = (int)(cell == null ? 0 : cell.NumericCellValue);
 					cell = row.GetCell(12); p.background = (int)(cell == null ? 0 : cell.NumericCellValue);
+					cell = row.GetCell(13); p.midimage = (int)(cell == null ? 0 : cell.NumericCellValue);
 						s.list.Add (p);
 					}
 					data.sheets.Add(s);

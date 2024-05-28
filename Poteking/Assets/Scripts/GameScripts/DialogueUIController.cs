@@ -16,6 +16,8 @@ public class DialogueUIController : MonoBehaviour
     public GameObject choiceBox;
     public Text choice1Text;
     public Text choice2Text;
+    public GameObject middleImageBox;
+    public Image middleImage;
 
 
     public void ActiveUI(bool dialogueState)
@@ -40,6 +42,11 @@ public class DialogueUIController : MonoBehaviour
         if (rightFace != null) rightFace.gameObject.SetActive(dialogueState);
     }
 
+    public void MiddleImageUi(bool dialogueState)
+    {
+        if (middleImageBox != null) middleImageBox.SetActive(dialogueState);
+        if (middleImage != null) middleImage.gameObject.SetActive(dialogueState);
+    }
     public void ChoiceUi(bool dialogueState)
     {
         if (npcName != null) choiceBox.SetActive(dialogueState);
