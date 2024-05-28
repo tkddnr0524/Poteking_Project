@@ -30,6 +30,7 @@ public class Entity_Dialogue : ScriptableObject
 		public int leftface;
 		public int rightface;
 		public int background;
+		public int midimage;
 	}
 }
 
