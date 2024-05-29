@@ -7,7 +7,7 @@ public class MainMenuUI : MonoBehaviour
 {
     public void OnClickStartBtn()
     {
-        SceneManager.LoadScene("02.Chapter_0");
+        SceneManager.LoadScene(2);
     }
 
     public void OnClickQuitBtn()
