@@ -4228,8 +4228,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backGroundList:
   - {fileID: 0}
-  - {fileID: 21300000, guid: f9eb98d44e0d2ea48a01f33f872dfc89, type: 3}
   - {fileID: 21300000, guid: 07b542c3d2e591e4cb05b55c9e34e2e0, type: 3}
+  - {fileID: 21300000, guid: f9eb98d44e0d2ea48a01f33f872dfc89, type: 3}
   - {fileID: 21300000, guid: 965c2837e5d9edd42a981809d484e5cd, type: 3}
   - {fileID: 21300000, guid: addf6e9ec4b585b4e80c5d7018eeea15, type: 3}
   - {fileID: 21300000, guid: 7a9b4273a194b604fad55d791f873768, type: 3}

@@ -62,11 +62,11 @@ MonoBehaviour:
       gamestate: 4
       npcname: "\uC18C\uB9AC"
       Dialog: "'\uC775\uC219\uD55C \uB290\uB08C\uC774 \uB4DC\uB294\uB370.'"
-      changeState: 0
-      choice1: 5
-      choice2: 5
-      choice1text: "\uB9D0\uC744 \uAC74\uB2E4."
-      choice2text: "\uB2E4\uAC00\uAC04\uB2E4."
+      changeState: 5
+      choice1: 0
+      choice2: 0
+      choice1text: 
+      choice2text: 
       leftface: 0
       rightface: 0
       background: 1
@@ -76,11 +76,11 @@ MonoBehaviour:
       gamestate: 5
       npcname: _
       Dialog: "\uC55E\uC5D0 \uD750\uB9BF\uD55C \uC0AC\uB78C\uC774 \uBCF4\uC778\uB2E4."
-      changeState: 6
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
+      changeState: 0
+      choice1: 6
+      choice2: 6
+      choice1text: "\uB9D0\uC744 \uAC74\uB2E4."
+      choice2text: "\uB2E4\uAC00\uAC04\uB2E4."
       leftface: 0
       rightface: 0
       background: 1
