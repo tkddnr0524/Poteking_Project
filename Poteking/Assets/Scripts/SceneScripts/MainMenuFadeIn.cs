@@ -14,7 +14,7 @@ public class MainMenuFadeIn : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(FadeIn(4.0f));
+        StartCoroutine(FadeIn(3.0f));
     }
 
     private IEnumerator FadeIn(float duration)

@@ -15,7 +15,7 @@ public class SplashSceneFadeOut : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(FadeOut(4.0f));
+        StartCoroutine(FadeOut(3.5f));
     }
 
     private IEnumerator FadeOut(float duration)
