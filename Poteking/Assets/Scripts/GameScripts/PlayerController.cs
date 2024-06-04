@@ -71,6 +71,8 @@ public class PlayerController : MonoBehaviour
                 InteractWithNPC();
             }*/
             InteractWithNPC();
+
+
         }
 
 
@@ -105,7 +107,7 @@ public class PlayerController : MonoBehaviour
                 if (npcParam != null)
                 {
                     //대화실행
-                    Debug.Log($"Dialog : {npcParam.Dialog}");
+                    //Debug.Log($"Dialog : {npcParam.Dialog}");
 
 
                     dialogueUIController.npcName.text = npcParam.npcname;
