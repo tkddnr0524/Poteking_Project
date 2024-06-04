@@ -16,6 +16,3 @@ public class MainMenuUI : MonoBehaviour
         Debug.Log("게임 나가기");
     }
 }
-
-
-

@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
@@ -72,9 +71,6 @@ public class SettingsMenu : MonoBehaviour
         PlayerPrefs.SetInt(MuteKey, muteToggle.isOn ? 1 : 0);
         PlayerPrefs.Save();
     }
-
-
-
 
     public void OpenSettings()
     {
