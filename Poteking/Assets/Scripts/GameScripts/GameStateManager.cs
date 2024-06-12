@@ -90,6 +90,7 @@ public class GameStateManager : MonoBehaviour
         if (gameState == 97)
         {
             GameObject hallway_2f = GameObject.Find("hallway_2f");
+            GameObject NPC_3 = GameObject.Find("NPC_3");
 
             if (hallway_2f != null)
             {
@@ -98,6 +99,21 @@ public class GameStateManager : MonoBehaviour
                     if (child.gameObject.name == "UpStair_3f")
                     {
                         child.gameObject.SetActive(true);
+                    }
+                }
+            }
+            else
+            {
+                Debug.LogError("부모 오브젝트를 찾을 수 없습니다.");
+            }
+            if (NPC_3 != null)
+            {
+                // Class 오브젝트의 자식들을 찾아서 포탈을 활성화시킴
+                foreach (Transform child in NPC_3.transform)
+                {
+                    if (child.gameObject.name == "NPC_3_R")
+                    {
+                        child.gameObject.SetActive(false);
                     }
                 }
             }

@@ -683,7 +683,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 1
+      leftface: 21
       rightface: 19
       background: 5
       midimage: 0
@@ -698,7 +698,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 1
+      leftface: 21
       rightface: 19
       background: 5
       midimage: 0
@@ -727,7 +727,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 3
+      leftface: 23
       rightface: 19
       background: 5
       midimage: 0
@@ -742,7 +742,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 3
+      leftface: 23
       rightface: 19
       background: 5
       midimage: 0
@@ -771,7 +771,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 5
+      leftface: 25
       rightface: 19
       background: 5
       midimage: 0
@@ -786,7 +786,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 5
+      leftface: 25
       rightface: 19
       background: 5
       midimage: 0
@@ -802,7 +802,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 5
+      leftface: 25
       rightface: 19
       background: 5
       midimage: 0
@@ -818,7 +818,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 5
+      leftface: 25
       rightface: 19
       background: 5
       midimage: 0
@@ -832,7 +832,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 5
+      leftface: 25
       rightface: 19
       background: 5
       midimage: 0
@@ -847,7 +847,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 5
+      leftface: 25
       rightface: 19
       background: 5
       midimage: 0
@@ -876,7 +876,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 3
+      leftface: 23
       rightface: 19
       background: 5
       midimage: 0
@@ -892,7 +892,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 3
+      leftface: 23
       rightface: 19
       background: 5
       midimage: 0
@@ -908,7 +908,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 3
+      leftface: 23
       rightface: 19
       background: 5
       midimage: 0
@@ -937,7 +937,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 3
+      leftface: 23
       rightface: 19
       background: 5
       midimage: 0
@@ -982,7 +982,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 1
+      leftface: 21
       rightface: 19
       background: 5
       midimage: 0
@@ -1013,7 +1013,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 6
+      leftface: 26
       rightface: 19
       background: 5
       midimage: 0
@@ -1028,7 +1028,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 6
+      leftface: 26
       rightface: 19
       background: 5
       midimage: 0
@@ -1058,7 +1058,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 5
+      leftface: 25
       rightface: 19
       background: 5
       midimage: 0
@@ -1073,7 +1073,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 5
+      leftface: 25
       rightface: 19
       background: 5
       midimage: 0
@@ -1116,7 +1116,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 3
+      leftface: 23
       rightface: 19
       background: 5
       midimage: 0
@@ -1132,7 +1132,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 3
+      leftface: 23
       rightface: 19
       background: 5
       midimage: 0
@@ -1162,7 +1162,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 1
+      leftface: 21
       rightface: 19
       background: 5
       midimage: 0
@@ -1208,7 +1208,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 5
+      leftface: 25
       rightface: 19
       background: 5
       midimage: 0
@@ -1223,7 +1223,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 5
+      leftface: 25
       rightface: 19
       background: 5
       midimage: 0
@@ -1238,7 +1238,7 @@ MonoBehaviour:
       choice2: 0
       choice1text: _
       choice2text: _
-      leftface: 5
+      leftface: 25
       rightface: 19
       background: 5
       midimage: 0
@@ -1439,8 +1439,9 @@ MonoBehaviour:
       npc: 4
       gamestate: 98
       npcname: _
-      Dialog: "\uC790\uC2E0\uC758 \uACE0\uBBFC\uC744 SNS\uC5D0\uB294 \uC62C\uB824\uB3C4
-        \uB9D0\uB85C\uB294 \uD138\uC5B4\uB193\uC9C0 \uC54A\uB294 \uC694\uC998,"
+      Dialog: "\uB9CE\uC740 \uC0AC\uB78C\uB4E4\uC774 \uC18D\uB9C8\uC74C\uC744 \uC228\uAE30\uACE0
+        \uC0B4\uC544\uAC00\uB294 \uC694\uC998, \uD559\uC0DD\uB4E4\uC758 \uBC1C\uAE38\uC774
+        \uB04A\uAE34 \uC0C1\uB2F4\uC2E4\uC740 \uC774\uB984\uB9CC \uB0A8\uC544\uC788\uB2E4."
       changeState: 99
       choice1: 0
       choice2: 0
@@ -1454,8 +1455,7 @@ MonoBehaviour:
       npc: 4
       gamestate: 99
       npcname: _
-      Dialog: "\uD559\uC0DD\uB4E4\uC758 \uBC1C\uAE38\uC774 \uB04A\uAE34 \uC0C1\uB2F4\uC2E4\uC740
-        \uC774\uB984\uB9CC \uB0A8\uC544\uC788\uB2E4."
+      Dialog: "\uAC00\uBCCD\uAC8C \uB178\uD06C\uB97C \uD558\uACE0 \uB4E4\uC5B4\uAC04\uB2E4."
       changeState: 100
       choice1: 0
       choice2: 0
@@ -1469,7 +1469,7 @@ MonoBehaviour:
       npc: 4
       gamestate: 100
       npcname: "\uC18C\uB9AC"
-      Dialog: "\uC2E4\uB840\uD569\uB2C8\uB2E4."
+      Dialog: "'\uC548\uC740 \uC0DD\uAC01\uBCF4\uB2E4 \uAE68\uB057\uD558\uB124.'"
       changeState: 101
       choice1: 0
       choice2: 0
@@ -1482,9 +1482,1028 @@ MonoBehaviour:
     - index: 101
       npc: 4
       gamestate: 101
+      npcname: "\uC18C\uB9AC"
+      Dialog: "\uC800\uAE30\uC694."
+      changeState: 102
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 1
+      rightface: 0
+      background: 2
+      midimage: 0
+    - index: 102
+      npc: 4
+      gamestate: 102
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC74C?"
+      changeState: 103
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 11
+      background: 2
+      midimage: 0
+    - index: 103
+      npc: 4
+      gamestate: 103
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uBB50\uC57C..? \uB204\uAD6C\uC138\uC694?"
+      changeState: 104
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 7
+      background: 2
+      midimage: 0
+    - index: 104
+      npc: 4
+      gamestate: 104
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC544, \uC0C1\uB2F4\uBC1B\uC73C\uB7EC \uC654\uACA0\uAD6C\uB098. \uADF8\uC57C
+        \uC0C1\uB2F4\uC2E4\uC774\uACE0..."
+      changeState: 105
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 105
+      npc: 4
+      gamestate: 105
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uBBF8\uC548, \uCD5C\uADFC 2\uC8FC\uAC04 \uC544\uBB34\uB3C4 \uC548
+        \uC640\uC11C \uC870\uAE08 \uB180\uB790\uC5B4."
+      changeState: 106
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 11
+      background: 2
+      midimage: 0
+    - index: 106
+      npc: 4
+      gamestate: 106
+      npcname: "\uC18C\uB9AC"
+      Dialog: "\uADF8\uAC8C \uC544\uB2C8\uB77C \uC804..."
+      changeState: 107
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 3
+      rightface: 31
+      background: 2
+      midimage: 0
+    - index: 107
+      npc: 4
+      gamestate: 107
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uB108\uB3C4 \uC798\uBABB \uCC3E\uC544\uC628 \uAC70\uAD6C\uB098??
+        \uADF8\uB807\uC9C0? 2\uC8FC \uC804\uC5D0 \uC628 \uCE5C\uAD6C\uB3C4 \uADF8\uB7AC\uAC70\uB4E0."
+      changeState: 108
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 23
+      rightface: 7
+      background: 2
+      midimage: 0
+    - index: 108
+      npc: 4
+      gamestate: 108
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uB098\uB984 \uC57C\uC2EC \uCC28\uAC8C \uC900\uBE44\uD588\uB294\uB370
+        \uC81C \uAE30\uB2A5\uB3C4 \uBABB\uD558\uACE0 \uC774 \uB3D9\uC544\uB9AC\uB294
+        \uB9DD\uD588\uC5B4..."
+      changeState: 109
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 23
+      rightface: 9
+      background: 2
+      midimage: 0
+    - index: 109
+      npc: 4
+      gamestate: 109
+      npcname: "\uC18C\uB9AC"
+      Dialog: "'\uC65C \uC774\uB798 \uC774 \uC0AC\uB78C?'"
+      changeState: 110
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 3
+      rightface: 29
+      background: 2
+      midimage: 0
+    - index: 110
+      npc: 4
+      gamestate: 110
+      npcname: "\uC18C\uB9AC"
+      Dialog: "\uAC00\uC785 \uC2E0\uCCAD\uD558\uB7EC\uC654\uB294\uB370\uC694."
+      changeState: 111
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 1
+      rightface: 29
+      background: 2
+      midimage: 0
+    - index: 111
+      npc: 4
+      gamestate: 111
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uADF8\uB798."
+      changeState: 112
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 112
+      npc: 4
+      gamestate: 112
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC544\uB2C8, \uBB50?"
+      changeState: 113
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 9
+      background: 2
+      midimage: 0
+    - index: 113
+      npc: 4
+      gamestate: 113
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uBA85\uCC30 \uBCF4\uB2C8 2\uD559\uB144\uC778\uB370 \uC120\uBC30\uB97C
+        \uB180\uB9AC\uBA74 \uBABB\uC4F0\uC9C0."
+      changeState: 114
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 114
+      npc: 4
+      gamestate: 114
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC544\uBB34\uB9AC \uBD10\uB3C4 \uC5EC\uAE30\uB791\uC740 \uC548 \uC5B4\uC6B8\uB9AC\uB294
+        \uC778\uC0C1\uC778\uB370 \uBB34\uC2A8."
+      changeState: 115
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 115
+      npc: 4
+      gamestate: 115
+      npcname: "\uC18C\uB9AC"
+      Dialog: "\uBB50\uB77C\uACE0\uC694?"
+      changeState: 116
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 2
+      rightface: 28
+      background: 2
+      midimage: 0
+    - index: 116
+      npc: 4
+      gamestate: 116
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC557, \uBBF8\uC548."
+      changeState: 117
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 22
+      rightface: 7
+      background: 2
+      midimage: 0
+    - index: 117
+      npc: 4
+      gamestate: 117
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uD639\uC2DC\uB098 \uD574\uC11C \uBB3B\uB294 \uAC74\uB370 \uC9C4\uC9DC
+        \uC785\uBD80\uD558\uB7EC \uC628 \uAC70\uC57C?"
+      changeState: 118
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 22
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 118
+      npc: 4
+      gamestate: 118
+      npcname: "\uC18C\uB9AC"
+      Dialog: "\uC2E0\uCCAD\uC11C\uB098 \uC8FC\uC138\uC694. \uBE68\uB9AC \uC4F0\uACE0
+        \uAC00\uAC8C."
+      changeState: 119
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 1
+      rightface: 30
+      background: 2
+      midimage: 0
+    - index: 119
+      npc: 4
+      gamestate: 119
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC544\uB2C8, \uC7A0\uC2DC\uB9CC."
+      changeState: 120
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 120
+      npc: 4
+      gamestate: 120
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uBB3C\uB860 \uC9C0\uAE08 \uB2F9\uC7A5 \uBD80\uC6D0\uC774 \uAE09\uD55C
+        \uAC74 \uB9DE\uC9C0\uB9CC \uADF8\uB807\uB2E4\uACE0 \uC544\uBB34\uB098 \uB4E4\uC77C
+        \uC218\uB294 \uC5C6\uC9C0."
+      changeState: 121
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 7
+      background: 2
+      midimage: 0
+    - index: 121
+      npc: 4
+      gamestate: 121
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uB098\uB984 \uC9C4\uC9C0\uD558\uAC8C \uC6B4\uC601\uD558\uB294 \uBD80\uB77C\uACE0
+        \uC5EC\uAE34."
+      changeState: 122
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 122
+      npc: 4
+      gamestate: 122
+      npcname: "\uC18C\uB9AC"
+      Dialog: "'\uC6B4\uC601\uC774 \uC548\uB418\uACE0 \uC788\uB294 \uAC70 \uAC19\uC740\uB370.'"
+      changeState: 123
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 1
+      rightface: 28
+      background: 2
+      midimage: 0
+    - index: 123
+      npc: 4
+      gamestate: 123
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC778\uC0C1\uB9CC \uBCF4\uACE0 \uC624\uD574\uD55C \uAC74 \uBBF8\uC548\uD558\uC9C0\uB9CC
+        \uAC04\uB2E8\uD55C \uD14C\uC2A4\uD2B8\uB97C \uD574\uC57C\uACA0\uC5B4."
+      changeState: 124
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 124
+      npc: 4
+      gamestate: 124
+      npcname: "\uC18C\uB9AC"
+      Dialog: "\uAC11\uC790\uAE30\uC694? \uC774\uAC74 \uB9D0\uC774 \uB2E4\uB978\uB370."
+      changeState: 125
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 3
+      rightface: 30
+      background: 2
+      midimage: 0
+    - index: 125
+      npc: 4
+      gamestate: 125
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uAC04\uB2E8\uD55C \uBB38\uB2F5 \uD615\uC2DD\uC73C\uB85C \uD560 \uAC70\uB2C8\uAE4C
+        \uAC71\uC815 \uB9C8!"
+      changeState: 126
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 23
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 126
+      npc: 4
+      gamestate: 126
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uB108\uC758 \uC9C0\uC2DD\uACFC \uACAC\uD574\uB97C \uBC14\uD0D5\uC73C\uB85C
+        \uD3B8\uD558\uAC8C \uB300\uB2F5\uD574 \uC918."
+      changeState: 127
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 23
+      rightface: 7
+      background: 2
+      midimage: 0
+    - index: 127
+      npc: 4
+      gamestate: 127
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uB124\uAC00 \uC774 \uB3D9\uC544\uB9AC\uC5D0 \uC801\uD569\uD55C \uC778\uC7AC\uC778\uC9C0
+        \uC54C\uC544\uBCFC\uAE4C?"
+      changeState: 128
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 23
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 128
+      npc: 4
+      gamestate: 128
       npcname: _
-      Dialog: "(\uB370\uBAA8 \uBC84\uC804 \uC2A4\uD06C\uB9BD\uD2B8 \uC885\uB8CC)"
-      changeState: 101
+      Dialog: "(\uD2B9\uC815\uD55C \uC0C1\uD669\uC5D0\uC11C \uBC1C\uC0DD\uD558\uB294
+        \uB300\uD654 \uC774\uBCA4\uD2B8\uC785\uB2C8\uB2E4.)"
+      changeState: 129
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 7
+      background: 2
+      midimage: 0
+    - index: 129
+      npc: 4
+      gamestate: 129
+      npcname: _
+      Dialog: "(\uC801\uC808\uD55C \uC120\uD0DD\uC9C0\uB97C \uACE8\uB77C. \uB300\uD654\uC758
+        \uBAA9\uD45C\uB97C \uB2EC\uC131\uD558\uC138\uC694.)"
+      changeState: 130
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 7
+      background: 2
+      midimage: 0
+    - index: 130
+      npc: 4
+      gamestate: 130
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC6B0\uC120 \uCCAB \uBC88\uC9F8 \uC9C8\uBB38,\n\uC2E0\uCCB4\uC801\uC73C\uB85C
+        \uC131\uC219\uD574\uC9C0\uBA70, \uC815\uC2E0\uC801\uC73C\uB85C\uB3C4 \uAC10\uC815\uC758
+        \uBCC0\uD654\uAC00 \uCEE4\uC9C0\uBA70 \uC790\uC544 \uC815\uCCB4\uC131\uC774
+        \uD615\uC131\uB418\uB294 \uC2DC\uAE30\uB97C \uBB50\uB77C\uACE0 \uD560\uAE4C?(100%)"
+      changeState: 0
+      choice1: 131
+      choice2: 132
+      choice1text: "\uC131\uC7A5\uAE30."
+      choice2text: "\uC0AC\uCD98\uAE30?"
+      leftface: 1
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 131
+      npc: 4
+      gamestate: 131
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC815\uB2F5\uC740 \uC0AC\uCD98\uAE30\uC57C. \uC0AC\uCD98\uAE30\uB3C4
+        \uD3EC\uD568\uB418\uC9C0\uB9CC \uC131\uC7A5\uAE30\uB294 \uC880 \uB354 \uD3EC\uAD04\uC801\uC778
+        \uC758\uBBF8\uC57C.(90%)"
+      changeState: 133
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 7
+      background: 2
+      midimage: 0
+    - index: 132
+      npc: 4
+      gamestate: 132
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uB9DE\uC544! \uB108\uBB34 \uC26C\uC6E0\uC9C0? \uC774\uB7F0 \uC2DD\uC73C\uB85C
+        \uB300\uB2F5\uD558\uBA74 \uB3FC.(100%)"
+      changeState: 134
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 133
+      npc: 4
+      gamestate: 133
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uB2E4\uC74C\uC740 OX, \n\uAD50\uC0AC\uC758 \uAD00\uC810\uC5D0\uC11C
+        \uD559\uC0DD \uAC04\uC758 \uC2EC\uAC01\uD55C \uAC08\uB4F1\uC774 \uBC1C\uC0DD\uD588\uC744
+        \uC2DC \n\uBB3C\uB9AC\uC801\uC778 \uBD84\uB9AC\uAC00 \uD6A8\uACFC\uC801\uC774\uB2E4.(90%)"
+      changeState: 0
+      choice1: 135
+      choice2: 139
+      choice1text: "\uADF8\uB798\uB3C4 \uB9D0\uB85C \uD574\uACB0\uD574\uC57C\uC8E0."
+      choice2text: "\uC77C\uB2E8 \uB5A8\uC5B4\uB728\uB9AC\uB294\uAC8C \uC88B\uB2E4\uB358\uB370."
+      leftface: 1
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 134
+      npc: 4
+      gamestate: 134
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uB2E4\uC74C\uC740 OX,\n\uAD50\uC0AC\uC758 \uAD00\uC810\uC5D0\uC11C
+        \uD559\uC0DD \uAC04\uC758 \uC2EC\uAC01\uD55C \uAC08\uB4F1\uC774 \uBC1C\uC0DD\uD588\uC744
+        \uC2DC\n\uBB3C\uB9AC\uC801\uC778 \uBD84\uB9AC\uAC00 \uD6A8\uACFC\uC801\uC774\uB2E4.(100%)"
+      changeState: 0
+      choice1: 137
+      choice2: 139
+      choice1text: "\uADF8\uB798\uB3C4 \uB9D0\uB85C \uD574\uACB0\uD574\uC57C\uC8E0."
+      choice2text: "\uC77C\uB2E8 \uB5A8\uC5B4\uB728\uB9AC\uB294\uAC8C \uC88B\uB2E4\uB358\uB370."
+      leftface: 1
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 135
+      npc: 4
+      gamestate: 135
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uAC10\uC815\uC774 \uC55E\uC11C\uB294 \uC2DC\uAE30\uC774\uAE30 \uB54C\uBB38\uC5D0
+        \uCDA9\uBD84\uD55C \uB0C9\uAC01\uACFC\uC815\uC774 \uC5C6\uB294 \uC9C0\uB3C4\uB294
+        \uD6A8\uACFC\uC801\uC774\uC9C0 \uC54A\uC544.(80%)"
+      changeState: 136
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 11
+      background: 2
+      midimage: 0
+    - index: 136
+      npc: 4
+      gamestate: 136
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC774\uBC88\uC5D0\uB3C4 OX\uC57C,\n\uC0C1\uB2F4\uC774 \uD544\uC694\uD55C
+        \uCCAD\uC18C\uB144\uC740 \uC2EC\uB9AC\uC801\uC73C\uB85C \uC608\uBBFC\uD55C
+        \uC0C1\uD0DC\uC774\uAE30 \uB54C\uBB38\uC5D0 \uBB34\uC870\uAC74 1 \uB300 1\uB85C
+        \uC9C4\uD589\uD574\uC57C \uD55C\uB2E4.(80%)"
+      changeState: 0
+      choice1: 141
+      choice2: 142
+      choice1text: "\uACBD\uC6B0\uC5D0 \uB530\uB77C \uB2E4\uB974\uC9C0 \uC54A\uC744\uAE4C\uC694."
+      choice2text: "\uADF8\uB807\uC8E0? \uC0C1\uB2F4\uC774\uB2C8\uAE4C."
+      leftface: 1
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 137
+      npc: 4
+      gamestate: 137
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uAC10\uC815\uC774 \uC55E\uC11C\uB294 \uC2DC\uAE30\uC774\uAE30 \uB54C\uBB38\uC5D0
+        \uCDA9\uBD84\uD55C \uB0C9\uAC01\uACFC\uC815\uC774 \uC5C6\uB294 \uC9C0\uB3C4\uB294
+        \uD6A8\uACFC\uC801\uC774\uC9C0 \uC54A\uC544.(90%)"
+      changeState: 138
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 11
+      background: 2
+      midimage: 0
+    - index: 138
+      npc: 4
+      gamestate: 138
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC774\uBC88\uC5D0\uB3C4 OX\uC57C,\n\uC0C1\uB2F4\uC774 \uD544\uC694\uD55C
+        \uCCAD\uC18C\uB144\uC740 \uC2EC\uB9AC\uC801\uC73C\uB85C \uC608\uBBFC\uD55C
+        \uC0C1\uD0DC\uC774\uAE30 \uB54C\uBB38\uC5D0 \uBB34\uC870\uAC74 1 \uB300 1\uB85C
+        \uC9C4\uD589\uD574\uC57C \uD55C\uB2E4.(90%)"
+      changeState: 0
+      choice1: 145
+      choice2: 143
+      choice1text: "\uACBD\uC6B0\uC5D0 \uB530\uB77C \uB2E4\uB974\uC9C0 \uC54A\uC744\uAE4C\uC694."
+      choice2text: "\uADF8\uB807\uC8E0? \uC0C1\uB2F4\uC774\uB2C8\uAE4C."
+      leftface: 1
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 139
+      npc: 4
+      gamestate: 139
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uB9DE\uC544, \uACA9\uC591\uB41C \uAC10\uC815\uC740 \uBB3C\uB9AC\uC801\uC778
+        \uBD84\uB9AC\uB85C \uB300\uBD80\uBD84 \uD574\uC18C\uB3FC. \n\uADF8 \uB4A4\uC5D0
+        \uC9C0\uB3C4\uB97C \uD574\uB3C4 \uB2A6\uC9C0 \uC54A\uC544.(100%)"
+      changeState: 140
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 140
+      npc: 4
+      gamestate: 140
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC774\uBC88\uC5D0\uB3C4 OX\uC57C,\n\uC0C1\uB2F4\uC774 \uD544\uC694\uD55C
+        \uCCAD\uC18C\uB144\uC740 \uC2EC\uB9AC\uC801\uC73C\uB85C \uC608\uBBFC\uD55C
+        \uC0C1\uD0DC\uC774\uAE30 \uB54C\uBB38\uC5D0 \uBB34\uC870\uAC74 1 \uB300 1\uB85C
+        \uC9C4\uD589\uD574\uC57C \uD55C\uB2E4.(100%)"
+      changeState: 0
+      choice1: 145
+      choice2: 144
+      choice1text: "\uACBD\uC6B0\uC5D0 \uB530\uB77C \uB2E4\uB974\uC9C0 \uC54A\uC744\uAE4C\uC694."
+      choice2text: "\uADF8\uB807\uC8E0? \uC0C1\uB2F4\uC774\uB2C8\uAE4C."
+      leftface: 1
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 141
+      npc: 4
+      gamestate: 141
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uB9DE\uC544, \uC9D1\uB2E8\uC0C1\uB2F4\uC73C\uB85C\uB3C4 \uC9C4\uD589\uC744
+        \uD558\uB294\uB370 \uBE44\uC2B7\uD55C \uBB38\uC81C\uB97C \uAC00\uC9C4 \uD559\uC0DD\uB4E4\uC774
+        \uC11C\uB85C\uC758 \uACBD\uD5D8\uC744 \uACF5\uC720\uD558\uACE0 \uC0C1\uD638\uC791\uC6A9\uD558\uB294
+        \uAC8C \uBB38\uC81C \uD574\uACB0\uC5D0 \uB3C4\uC6C0\uC744 \uC8FC\uAE30\uB3C4
+        \uD574.(90%)"
+      changeState: 146
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 142
+      npc: 4
+      gamestate: 142
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uADF8\uB807\uC9C0 \uC54A\uC544, \uBE44\uC2B7\uD55C \uBB38\uC81C\uB97C
+        \uAC00\uC9C4 \uC5EC\uB7EC \uBA85\uC774\uC11C \uACBD\uD5D8\uC744 \uACF5\uC720\uD558\uACE0
+        \uC0C1\uD638\uC791\uC6A9\uD558\uB294 \uC2DD\uC73C\uB85C \uC9C4\uD589\uD558\uB294
+        \uC9D1\uB2E8\uC0C1\uB2F4\uB3C4 \uC788\uC5B4.(70%)"
+      changeState: 146
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 11
+      background: 2
+      midimage: 0
+    - index: 143
+      npc: 4
+      gamestate: 143
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uADF8\uB807\uC9C0 \uC54A\uC544, \uBE44\uC2B7\uD55C \uBB38\uC81C\uB97C
+        \uAC00\uC9C4 \uC5EC\uB7EC \uBA85\uC774\uC11C \uACBD\uD5D8\uC744 \uACF5\uC720\uD558\uACE0
+        \uC0C1\uD638\uC791\uC6A9\uD558\uB294 \uC2DD\uC73C\uB85C \uC9C4\uD589\uD558\uB294
+        \uC9D1\uB2E8\uC0C1\uB2F4\uB3C4 \uC788\uC5B4.(80%)"
+      changeState: 146
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 11
+      background: 2
+      midimage: 0
+    - index: 144
+      npc: 4
+      gamestate: 144
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uADF8\uB807\uC9C0 \uC54A\uC544, \uBE44\uC2B7\uD55C \uBB38\uC81C\uB97C
+        \uAC00\uC9C4 \uC5EC\uB7EC \uBA85\uC774\uC11C \uACBD\uD5D8\uC744 \uACF5\uC720\uD558\uACE0
+        \uC0C1\uD638\uC791\uC6A9\uD558\uB294 \uC2DD\uC73C\uB85C \uC9C4\uD589\uD558\uB294
+        \uC9D1\uB2E8\uC0C1\uB2F4\uB3C4 \uC788\uC5B4.(90%)"
+      changeState: 146
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 11
+      background: 2
+      midimage: 0
+    - index: 145
+      npc: 4
+      gamestate: 145
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uB9DE\uC544, \uC9D1\uB2E8\uC0C1\uB2F4\uC73C\uB85C\uB3C4 \uC9C4\uD589\uC744
+        \uD558\uB294\uB370 \uBE44\uC2B7\uD55C \uBB38\uC81C\uB97C \uAC00\uC9C4 \uD559\uC0DD\uB4E4\uC774
+        \uC11C\uB85C\uC758 \uACBD\uD5D8\uC744 \uACF5\uC720\uD558\uACE0 \uC0C1\uD638\uC791\uC6A9\uD558\uB294
+        \uAC8C \uBB38\uC81C \uD574\uACB0\uC5D0 \uB3C4\uC6C0\uC744 \uC8FC\uAE30\uB3C4
+        \uD574.(100%)"
+      changeState: 146
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 146
+      npc: 4
+      gamestate: 146
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uADF8\uB7FC \uB9C8\uC9C0\uB9C9 \uBB38\uC81C,\n\uC138\uACC4 7\uB300
+        \uB09C\uC81C \uC911 \uC720\uC77C\uD558\uAC8C \uD574\uACB0\uB41C \uBB38\uC81C\uB85C,
+        \"3\uCC28\uC6D0\uC5D0\uC11C \uB2E8\uC21C \uC5F0\uACB0\uB41C \uD3D0\uACE1\uBA74\uC740
+        3\uCC28\uC6D0 \uAD6C\uBA74\uACFC \uC704\uC0C1\uC801\uC73C\uB85C \uB3D9\uD615\uC774\uB2E4\"\uB77C\uB294
+        \uB0B4\uC6A9\uC744 \uAC00\uC9C4 \uC704\uC0C1 \uC218\uD559 \uB09C\uC81C\uC758
+        \uC774\uB984\uC740 \uBB34\uC5C7\uC77C\uAE4C\uC694?"
+      changeState: 0
+      choice1: 147
+      choice2: 147
+      choice1text: "\uB124?"
+      choice2text: ...??
+      leftface: 3
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 147
+      npc: 4
+      gamestate: 147
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC815\uB2F5\uC740 \uD478\uC575\uCE74\uB808 \uCD94\uCE21\uC774\uC57C!"
+      changeState: 148
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 23
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 148
+      npc: 4
+      gamestate: 148
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uB2E4 \uB9DE\uCD9C \uC904 \uC54C\uC558\uB294\uB370. \uC544\uC27D\uAC8C
+        \uB410\uC5B4."
+      changeState: 149
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 23
+      rightface: 12
+      background: 2
+      midimage: 0
+    - index: 149
+      npc: 4
+      gamestate: 149
+      npcname: "\uC18C\uB9AC"
+      Dialog: "\uBB50 \uD558\uB294 \uAC70\uC608\uC694? \uC9C4\uC9C0\uD558\uAC8C \uD558\uB294\uAC00
+        \uC2F6\uB354\uB2C8\uB9CC."
+      changeState: 150
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 6
+      rightface: 32
+      background: 2
+      midimage: 0
+    - index: 150
+      npc: 4
+      gamestate: 150
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uD489, \uC7A5\uB09C\uC774\uC57C. \uC0AC\uC2E4 \uC774\uBBF8 \uC5F0\uB77D\uBC1B\uC558\uC5B4.
+        \uC0C8\uB85C \uBD80\uC6D0 \uC62C\uAC70\uB77C\uACE0."
+      changeState: 151
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 26
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 151
+      npc: 4
+      gamestate: 151
+      npcname: "\uC18C\uB9AC"
+      Dialog: "\uC7A5\uB09C\uD574\uC694?"
+      changeState: 152
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 3
+      rightface: 30
+      background: 2
+      midimage: 0
+    - index: 152
+      npc: 4
+      gamestate: 152
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uBC29\uAE08 \uC7A5\uB09C\uC774\uB77C \uD588\uC796\uC544?"
+      changeState: 153
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 23
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 153
+      npc: 4
+      gamestate: 153
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uC9C4\uC815\uD558\uACE0, \uBB50\uAC00 \uB410\uB4E0 \uC5F4\uC2EC\uD788
+        \uB300\uB2F5\uD574 \uC8FC\uB294 \uBAA8\uC2B5\uB9CC \uBD10\uB3C4 \uC6B0\uB9AC
+        \uBD80\uC5D0\uC11C \uD65C\uB3D9\uD558\uB294\uB370 \uBB38\uC81C\uC5C6\uC5B4
+        \uBCF4\uC5EC."
+      changeState: 154
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 23
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 154
+      npc: 4
+      gamestate: 154
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uCC98\uC74C\uBD80\uD130 \uB2E4 \uC798\uD560 \uC218\uB294 \uC5C6\uC796\uC544?"
+      changeState: 155
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 23
+      rightface: 7
+      background: 2
+      midimage: 0
+    - index: 155
+      npc: 4
+      gamestate: 155
+      npcname: "\uC18C\uB9AC"
+      Dialog: "'\uB18D\uB77D\uB2F9\uD558\uB294 \uAE30\uBD84\uC778\uB370.'"
+      changeState: 156
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 1
+      rightface: 27
+      background: 2
+      midimage: 0
+    - index: 156
+      npc: 4
+      gamestate: 156
+      npcname: "\uC18C\uB9AC"
+      Dialog: "'\uADF8\uB798\uB3C4 \uD655\uC2E4\uD788 \uC774\uB7F0 \uCABD\uC5D0 \uB300\uD574
+        \uC798 \uC544\uB294 \uAC70 \uAC19\uC544. \uCDA9\uBD84\uD788 \uB3C4\uC6C0\uBC1B\uC744
+        \uC218 \uC788\uACA0\uC5B4.'"
+      changeState: 157
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 4
+      rightface: 27
+      background: 2
+      midimage: 0
+    - index: 157
+      npc: 4
+      gamestate: 157
+      npcname: "\uC18C\uB9AC"
+      Dialog: "\uADF8\uB7FC \uC2E0\uCCAD\uC11C \uC4F0\uBA74 \uB418\uB294\uAC70\uC8E0?"
+      changeState: 158
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 1
+      rightface: 27
+      background: 2
+      midimage: 0
+    - index: 158
+      npc: 4
+      gamestate: 158
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uADF8\uB798. \uC5EC\uAE30."
+      changeState: 159
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 7
+      background: 2
+      midimage: 0
+    - index: 159
+      npc: 4
+      gamestate: 159
+      npcname: "\uC18C\uB9AC"
+      Dialog: "\uC774\uC81C \uBB50 \uD558\uBA74 \uB418\uC8E0? \uC2DC\uAC04 \uB0A0
+        \uB54C\uB9C8\uB2E4 \uC5EC\uAE30\uC11C \uC0AC\uB78C \uAE30\uB2E4\uB824\uC694?"
+      changeState: 160
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 1
+      rightface: 27
+      background: 2
+      midimage: 0
+    - index: 160
+      npc: 4
+      gamestate: 160
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uBB38\uC81C\uAC00 \uB450 \uAC00\uC9C0 \uC788\uC5B4."
+      changeState: 161
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 161
+      npc: 4
+      gamestate: 161
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uD558\uB098\uB294 \uC815\uC2DD \uB3D9\uC544\uB9AC \uC2E0\uCCAD\uC5D0\uB294
+        \uD55C \uBA85 \uB354 \uD544\uC694\uD558\uB2E4\uB294 \uAC70\uACE0, \uB450
+        \uBC88\uC9F8\uB294 \uC2E4\uC801\uC744 \uC313\uC544\uC57C \uD55C\uB2E4\uB294
+        \uAC70\uC57C."
+      changeState: 162
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 21
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 162
+      npc: 4
+      gamestate: 162
+      npcname: "\uC18C\uB9AC"
+      Dialog: "\uC5B4\uB5BB\uAC8C \uD558\uAC8C\uC694."
+      changeState: 163
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 5
+      rightface: 28
+      background: 2
+      midimage: 0
+    - index: 163
+      npc: 4
+      gamestate: 163
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uAD73\uC774 \uBCF5\uC7A1\uD558\uAC8C \uD560 \uD544\uC694\uB294 \uC5C6\uC9C0.
+        \uB3D9\uC2DC\uC5D0 \uD558\uC790."
+      changeState: 164
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 25
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 164
+      npc: 4
+      gamestate: 164
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uACE0\uBBFC\uC774 \uC788\uB294 \uCE5C\uAD6C\uB97C \uCC3E\uC544\uC11C
+        \uD574\uACB0\uD574 \uC8FC\uACE0 \uB3D9\uC2DC\uC5D0 \uC785\uBD80\uB97C \uAD8C\uC720\uD558\uB294
+        \uAC70\uC9C0."
+      changeState: 165
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 25
+      rightface: 8
+      background: 2
+      midimage: 0
+    - index: 165
+      npc: 4
+      gamestate: 165
+      npcname: "\uC18C\uB9AC"
+      Dialog: "\uC5EC\uAE30 \uC544\uBB34\uB3C4 \uC548 \uCC3E\uC544\uC628\uB2E4\uBA74\uC11C\uC694..."
+      changeState: 166
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 5
+      rightface: 28
+      background: 2
+      midimage: 0
+    - index: 166
+      npc: 4
+      gamestate: 166
+      npcname: "\uB2E4\uC740"
+      Dialog: "\uADF8\uAC78 \uB124\uAC00 \uD574\uACB0\uD574\uC57C\uC9C0. \uB2A5\uB825\uC744
+        \uBCF4\uC5EC\uC918 \uC2E0\uC785!"
+      changeState: 167
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 25
+      rightface: 10
+      background: 2
+      midimage: 0
+    - index: 167
+      npc: 4
+      gamestate: 167
+      npcname: "\uC18C\uB9AC"
+      Dialog: "'\uB18D\uB77D\uB2F9\uD558\uB294 \uAC8C \uB9DE\uB294 \uAC70 \uAC19\uC740\uB370.'"
+      changeState: 168
+      choice1: 0
+      choice2: 0
+      choice1text: _
+      choice2text: _
+      leftface: 6
+      rightface: 30
+      background: 2
+      midimage: 0
+    - index: 168
+      npc: 4
+      gamestate: 168
+      npcname: _
+      Dialog: "(\uB370\uBAA8\uBC84\uC804 \uC2A4\uD06C\uB9BD\uD2B8 \uC885\uB8CC)"
+      changeState: 169
       choice1: 0
       choice2: 0
       choice1text: _
@@ -1492,930 +2511,6 @@ MonoBehaviour:
       leftface: 0
       rightface: 0
       background: 4
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
-      midimage: 0
-    - index: 0
-      npc: 0
-      gamestate: 0
-      npcname: 
-      Dialog: 
-      changeState: 0
-      choice1: 0
-      choice2: 0
-      choice1text: 
-      choice2text: 
-      leftface: 0
-      rightface: 0
-      background: 0
       midimage: 0
     - index: 0
       npc: 0
