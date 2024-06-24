@@ -3242,7 +3242,7 @@ MonoBehaviour:
   audioSource: {fileID: 667088479}
   footstepClip: {fileID: 8300000, guid: a2760df8436de334392fe1a59555c7e8, type: 3}
   dialogueAudioSource: {fileID: 0}
-  pageTurnClip: {fileID: 8300000, guid: 8a423cda356b9fb45b8ecc5c812fd10e, type: 3}
+  pageTurnClip: {fileID: 8300000, guid: 41755265df1aa6748b059e7c715af42f, type: 3}
   range: 1
 --- !u!70 &667088475
 CapsuleCollider2D:
