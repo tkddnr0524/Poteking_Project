@@ -4,6 +4,8 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using JetBrains.Annotations;
+
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -11,9 +13,11 @@ using UnityEditor;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f; //플레이어 이동속도
+
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
     Animator animator;
+
     float moveInput;
     public NPCManager npcManager;
     public GameStateManager gameStateManager;
@@ -24,8 +28,16 @@ public class PlayerController : MonoBehaviour
     public Button Choice1Button;
     public Button Choice2Button;
 
+    public AudioSource audioSource; //AudioSource 컴포넌트 참조
+    public AudioClip footstepClip;  //발걸음 소리 오디오 클립
+
+    public AudioSource dialogueAudioSource; //대화 넘기기 사운드 AudioSource
+    public AudioClip pageTurnClip; //책 넘기는 사운드 오디오 클립
+
+
     //private bool isDialogueActive = false;
     public float range = 2.0f;
+
 
     private void OnDrawGizmosSelected()
     {
@@ -34,12 +46,17 @@ public class PlayerController : MonoBehaviour
         Handles.DrawWireDisc(transform.position, Vector3.forward, range); // 빨강색 원으로 거리 확인
 #endif
     }
+
+
     private void Start()
     {
-
         rigid = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+
+        //대화 사운드를 위한 AudioSource 컴포넌트 추가
+        dialogueAudioSource = gameObject.AddComponent<AudioSource>();
     }
 
     private void Update()
@@ -54,10 +71,12 @@ public class PlayerController : MonoBehaviour
         if (rigid.velocity.x == 0)
         {
             animator.SetBool("isWalking", false);
+            StopFootstepSound(); //플레이어가 멈췄을 때 소리 멈추기
         }
         else
         {
             animator.SetBool("isWalking", true);
+            PlayFootstepSound(); //플레이어가 이동할 때 발걸음 소리 재생
         }
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -71,8 +90,7 @@ public class PlayerController : MonoBehaviour
                 InteractWithNPC();
             }*/
             InteractWithNPC();
-
-
+            PlayPageTurnSound(); //대화가 진행될 때 책 넘기는 사운드 재생
         }
 
 
@@ -91,6 +109,31 @@ public class PlayerController : MonoBehaviour
         rigid.velocity = velocity;
     }
 
+    void PlayFootstepSound()
+    {
+        if (!audioSource.isPlaying)
+        {
+            audioSource.clip = footstepClip;
+            audioSource.Play();
+        }
+    }
+
+    void StopFootstepSound()
+    {
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
+    }
+
+    void PlayPageTurnSound()
+    {
+        if(pageTurnClip != null)
+        {
+            dialogueAudioSource.clip = pageTurnClip;
+            dialogueAudioSource.Play();
+        }
+    }
 
     public void InteractWithNPC()
     {
